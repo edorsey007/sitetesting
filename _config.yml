@@ -1,0 +1,31 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: localhost:4000
+title: LiveIntent
+email: info@liveintent.com
+author: LiveIntent @ gdubow
+description: > # "LiveIntent is a smarter way to market to people, not pixels.
+copyright: 'Copyright &copy; 2015 LiveIntent. All Rights Reserved.'
+
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/SBootstrap
+  - title: github
+    url: https://github.com/IronSummitMedia/startbootstrap
+  - title: linkedin
+    url: 
