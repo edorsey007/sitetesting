@@ -12,11 +12,11 @@ $(document).ready(function() {
 
     // Smooth scroll to inner links
 
-  if($('.inner-link').length){
-    $('.inner-link').smoothScroll({
-      offset: -55,
-      speed: 800
-    });
+	if($('.inner-link').length){
+		$('.inner-link').smoothScroll({
+			offset: -55,
+			speed: 800
+		});
     }
 
     // Update scroll variable for scrolling functions
@@ -108,18 +108,18 @@ $(document).ready(function() {
         $(this).css('width', $(this).attr('data-progress') + '%');
     });
 
-    //Navigation
+    // Navigation
 
     if (!$('nav').hasClass('fixed') && !$('nav').hasClass('absolute')) {
 
         // Make nav container height of nav
 
-        // $('.nav-container').css('min-height', $('nav').outerHeight(true));
+        $('.nav-container').css('min-height', $('nav').outerHeight(true));
 
-        // $(window).resize(function() {
-        //     $('.nav-container').css('min-height', $('nav').outerHeight(true));
-        //     console.error('nav outerheight: '+$('nav').outerHeight(true));
-        // });
+        $(window).resize(function() {
+            $('.nav-container').css('min-height', $('nav').outerHeight(true));
+            console.error('nav outerheight: '+$('nav').outerHeight(true));
+        });
 
         // Compensate the height of parallax element for inline nav
 
@@ -141,6 +141,7 @@ $(document).ready(function() {
         $('.nav-container').addClass('bg-dark');
     }
 
+
     // Fix nav to top while scrolling
 
     mr_nav = $('body .nav-container nav:first');
@@ -161,8 +162,7 @@ $(document).ready(function() {
         }
     });
 
-    //Mobile Menu
-    //Sub Nav 
+    // Mobile Menu
 
     $('.mobile-toggle').click(function() {
         $('.nav-bar').toggleClass('nav-open');
@@ -182,31 +182,189 @@ $(document).ready(function() {
     $('.module.widget-handle').click(function() {
         $(this).toggleClass('toggle-widget-handle');
     });
+    
+    // Offscreen Nav
+    
+    if($('.offscreen-toggle').length){
+    	$('body').addClass('has-offscreen-nav');
+    }
+    else{
+        $('body').removeClass('has-offscreen-nav');
+    }
+    
+    $('.offscreen-toggle').click(function(){
+    	$('.main-container').toggleClass('reveal-nav');
+    	$('nav').toggleClass('reveal-nav');
+    	$('.offscreen-container').toggleClass('reveal-nav');
+    });
+    
+    $('.main-container').click(function(){
+    	if($(this).hasClass('reveal-nav')){
+    		$(this).removeClass('reveal-nav');
+    		$('.offscreen-container').removeClass('reveal-nav');
+    		$('nav').removeClass('reveal-nav');
+    	}
+    });
+    
+    $('.offscreen-container a').click(function(){
+    	$('.offscreen-container').removeClass('reveal-nav');
+    	$('.main-container').removeClass('reveal-nav');
+    	$('nav').removeClass('reveal-nav');
+    });
 
-    //Global Nav Overlay
-    $(document).ready(function(){
-        $(".main-toggle").click(function(){
-            $(".mobile-overlay").fadeToggle(200);
-           $(this).toggleClass('btn-open').toggleClass('btn-close');
+    // Populate filters
+    
+    $('.projects').each(function() {
+
+        var filters = "";
+
+        $(this).find('.project').each(function() {
+
+            var filterTags = $(this).attr('data-filter').split(',');
+
+            filterTags.forEach(function(tagName) {
+                if (filters.indexOf(tagName) == -1) {
+                    filters += '<li data-filter="' + tagName + '">' + capitaliseFirstLetter(tagName) + '</li>';
+                }
+            });
+            $(this).closest('.projects')
+                .find('ul.filters').empty().append('<li data-filter="all" class="active">All</li>').append(filters);
         });
     });
 
-    $('.mobile-overlay').on('click', function(){
-        $(".mobile-overlay").fadeToggle(200);   
-        $(".main-toggle").toggleClass('btn-open').toggleClass('btn-close');
-        open = false;
+    $('.filters li').click(function() {
+        var filter = $(this).attr('data-filter');
+        $(this).closest('.filters').find('li').removeClass('active');
+        $(this).addClass('active');
+
+        $(this).closest('.projects').find('.project').each(function() {
+            var filters = $(this).data('filter');
+
+            if (filters.indexOf(filter) == -1) {
+                $(this).addClass('inactive');
+            } else {
+                $(this).removeClass('inactive');
+            }
+        });
+
+        if (filter == 'all') {
+            $(this).closest('.projects').find('.project').removeClass('inactive');
+        }
     });
-  
-  $('.foundry_modal[data-time-delay]').each(function(){
-    var modal = $(this);
-    var delay = modal.attr('data-time-delay');
-    modal.prepend($('<i class="ti-close close-modal">'));
-      if(typeof modal.attr('data-cookie') != "undefined"){
-          if(!mr_cookies.hasItem(modal.attr('data-cookie'))){
+
+    // Twitter Feed
+
+    $('.tweets-feed').each(function(index) {
+        $(this).attr('id', 'tweets-' + index);
+    }).each(function(index) {
+
+        function handleTweets(tweets) {
+            var x = tweets.length;
+            var n = 0;
+            var element = document.getElementById('tweets-' + index);
+            var html = '<ul class="slides">';
+            while (n < x) {
+                html += '<li>' + tweets[n] + '</li>';
+                n++;
+            }
+            html += '</ul>';
+            element.innerHTML = html;
+            return html;
+        }
+
+        twitterFetcher.fetch($('#tweets-' + index).attr('data-widget-id'), '', 5, true, true, true, '', false, handleTweets);
+
+    });
+
+    // Instagram Feed
+    
+    if($('.instafeed').length){
+    	jQuery.fn.spectragram.accessData = {
+			accessToken: '1406933036.fedaafa.feec3d50f5194ce5b705a1f11a107e0b',
+			clientID: 'fedaafacf224447e8aef74872d3820a1'
+		};	
+    }   
+
+    $('.instafeed').each(function() {
+    	var feedID = $(this).attr('data-user-name') + '-';
+        $(this).children('ul').spectragram('getUserFeed', {
+            query: feedID,
+            max: 12
+        });
+    });
+
+    // Image Sliders
+
+    $('.slider-all-controls').flexslider({});
+    $('.slider-paging-controls').flexslider({
+        animation: "slide",
+        directionNav: false
+    });
+    $('.slider-arrow-controls').flexslider({
+        controlNav: false
+    });
+    $('.slider-thumb-controls .slides li').each(function() {
+        var imgSrc = $(this).find('img').attr('src');
+        $(this).attr('data-thumb', imgSrc);
+    });
+    $('.slider-thumb-controls').flexslider({
+        animation: "slide",
+        controlNav: "thumbnails",
+        directionNav: true
+    });
+    $('.logo-carousel').flexslider({
+        minItems: 1,
+        maxItems: 4,
+        move: 1,
+        itemWidth: 200,
+        itemMargin: 0,
+        animation: "slide",
+        slideshow: true,
+        slideshowSpeed: 3000,
+        directionNav: false,
+        controlNav: false
+    });
+    
+    // Lightbox gallery titles
+    
+    $('.lightbox-grid li a').each(function(){
+    	var galleryTitle = $(this).closest('.lightbox-grid').attr('data-gallery-title');
+    	$(this).attr('data-lightbox', galleryTitle);
+    });
+    
+    // Multipurpose Modals
+    
+    if($('.foundry_modal').length){
+    	var modalScreen = $('<div class="modal-screen">').appendTo('body');
+    }
+    
+    $('.modal-container').each(function(index) {
+        if($(this).find('iframe[src]').length){
+        	$(this).find('.foundry_modal').addClass('iframe-modal');
+        }
+        $(this).find('.btn-modal').attr('modal-link', index);
+        $(this).find('.foundry_modal').clone().appendTo('body').attr('modal-link', index).prepend($('<i class="ti-close close-modal">'));
+    });
+    
+    $('.btn-modal').click(function(){
+    	var linkedModal = $('section').closest('body').find('.foundry_modal[modal-link="' + $(this).attr('modal-link') + '"]');
+        $('.modal-screen').toggleClass('reveal-modal');
+        linkedModal.toggleClass('reveal-modal');
+        return false;
+    });
+    
+    // Autoshow modals
+	
+	$('.foundry_modal[data-time-delay]').each(function(){
+		var modal = $(this);
+		var delay = modal.attr('data-time-delay');
+		modal.prepend($('<i class="ti-close close-modal">'));
+    	if(typeof modal.attr('data-cookie') != "undefined"){
+        	if(!mr_cookies.hasItem(modal.attr('data-cookie'))){
                 setTimeout(function(){
-              modal.addClass('reveal-modal');
-              $('.modal-screen').addClass('reveal-modal');
-            },delay);
+        			modal.addClass('reveal-modal');
+        			$('.modal-screen').addClass('reveal-modal');
+        		},delay);
             }
         }else{
             setTimeout(function(){
@@ -214,44 +372,44 @@ $(document).ready(function() {
                 $('.modal-screen').addClass('reveal-modal');
             },delay);
         }
-  });
+	});
     
     $('.close-modal:not(.modal-strip .close-modal)').click(function(){
-      var modal = $(this).closest('.foundry_modal');
+    	var modal = $(this).closest('.foundry_modal');
         modal.toggleClass('reveal-modal');
         if(typeof modal.attr('data-cookie') != "undefined"){
             mr_cookies.setItem(modal.attr('data-cookie'), "true", Infinity);
         }
-      
+    	
         $('.modal-screen').toggleClass('reveal-modal');
     });
     
     $('.modal-screen').click(function(){
-      $('.foundry_modal.reveal-modal').toggleClass('reveal-modal');
-      $(this).toggleClass('reveal-modal');
+    	$('.foundry_modal.reveal-modal').toggleClass('reveal-modal');
+    	$(this).toggleClass('reveal-modal');
     });
     
     $(document).keyup(function(e) {
-     if (e.keyCode == 27) { // escape key maps to keycode `27`
-      $('.foundry_modal').removeClass('reveal-modal');
-      $('.modal-screen').removeClass('reveal-modal');
-    }
-  });
+		 if (e.keyCode == 27) { // escape key maps to keycode `27`
+			$('.foundry_modal').removeClass('reveal-modal');
+			$('.modal-screen').removeClass('reveal-modal');
+		}
+	});
     
     // Modal Strips
     
     $('.modal-strip').each(function(){
-      if(!$(this).find('.close-modal').length){
-        $(this).append($('<i class="ti-close close-modal">'));
-      }
-      var modal = $(this);
+    	if(!$(this).find('.close-modal').length){
+    		$(this).append($('<i class="ti-close close-modal">'));
+    	}
+    	var modal = $(this);
 
         if(typeof modal.attr('data-cookie') != "undefined"){
            
             if(!mr_cookies.hasItem(modal.attr('data-cookie'))){
-              setTimeout(function(){
-                modal.addClass('reveal-modal');
-              },1000);
+            	setTimeout(function(){
+            		modal.addClass('reveal-modal');
+            	},1000);
             }
         }else{
             setTimeout(function(){
@@ -265,8 +423,8 @@ $(document).ready(function() {
         if(typeof modal.attr('data-cookie') != "undefined"){
             mr_cookies.setItem(modal.attr('data-cookie'), "true", Infinity);
         }
-      $(this).closest('.modal-strip').removeClass('reveal-modal');
-      return false;
+    	$(this).closest('.modal-strip').removeClass('reveal-modal');
+    	return false;
     });
 
 
@@ -316,8 +474,8 @@ $(document).ready(function() {
         $(this).attr('data-property', "{videoURL:'http://youtu.be/" + src + "',containment:'self',autoPlay:true, mute:true, startAt:" + startat + ", opacity:1, showControls:false}");
     });
 
-  if($('.player').length){
-      $('section').closest('body').find(".player").YTPlayer();
+	if($('.player').length){
+    	$('section').closest('body').find(".player").YTPlayer();
     }
 
     // FS Vid Background
@@ -333,11 +491,11 @@ $(document).ready(function() {
     });
     
     if($('.map-holder').length){
-      $(window).scroll(function() {
-      if ($('.map-holder.interact').length) {
-        $('.map-holder.interact').removeClass('interact');
-      }
-    });
+    	$(window).scroll(function() {
+			if ($('.map-holder.interact').length) {
+				$('.map-holder.interact').removeClass('interact');
+			}
+		});
     }
     
     // Countdown Timers
@@ -352,6 +510,185 @@ $(document).ready(function() {
             });
         });
     }
+
+    // Contact form code
+
+    $('form.form-email, form.form-newsletter').submit(function(e) {
+
+        // return false so form submits through jQuery rather than reloading page.
+        if (e.preventDefault) e.preventDefault();
+        else e.returnValue = false;
+
+        var thisForm = $(this).closest('form.form-email, form.form-newsletter'),
+            error = 0,
+            originalError = thisForm.attr('original-error'),
+            loadingSpinner, iFrame, userEmail, userFullName, userFirstName, userLastName, successRedirect;
+
+        // Mailchimp/Campaign Monitor Mail List Form Scripts
+        iFrame = $(thisForm).find('iframe.mail-list-form');
+
+        thisForm.find('.form-error, .form-success').remove();
+        thisForm.append('<div class="form-error" style="display: none;">' + thisForm.attr('data-error') + '</div>');
+        thisForm.append('<div class="form-success" style="display: none;">' + thisForm.attr('data-success') + '</div>');
+
+
+        if ((iFrame.length) && (typeof iFrame.attr('srcdoc') !== "undefined") && (iFrame.attr('srcdoc') !== "")) {
+
+            console.log('Mail list form signup detected.');
+            userEmail = $(thisForm).find('.signup-email-field').val();
+            userFullName = $(thisForm).find('.signup-name-field').val();
+            if ($(thisForm).find('input.signup-first-name-field').length) {
+                userFirstName = $(thisForm).find('input.signup-first-name-field').val();
+            } else {
+                userFirstName = $(thisForm).find('.signup-name-field').val();
+            }
+            userLastName = $(thisForm).find('.signup-last-name-field').val();
+
+            // validateFields returns 1 on error;
+            if (validateFields(thisForm) !== 1) {
+                console.log('Mail list signup form validation passed.');
+                console.log(userEmail);
+                console.log(userLastName);
+                console.log(userFirstName);
+                console.log(userFullName);
+
+                iFrame.contents().find('#mce-EMAIL, #fieldEmail').val(userEmail);
+                iFrame.contents().find('#mce-LNAME, #fieldLastName').val(userLastName);
+                iFrame.contents().find('#mce-FNAME, #fieldFirstName').val(userFirstName);
+                iFrame.contents().find('#mce-NAME, #fieldName').val(userFullName);
+                iFrame.contents().find('form').attr('target', '_blank').submit();
+                successRedirect = thisForm.attr('success-redirect');
+                // For some browsers, if empty `successRedirect` is undefined; for others,
+                // `successRedirect` is false.  Check for both.
+                if (typeof successRedirect !== typeof undefined && successRedirect !== false && successRedirect !== "") {
+                    window.location = successRedirect;
+                }
+            } else {
+                thisForm.find('.form-error').fadeIn(1000);
+                setTimeout(function() {
+                    thisForm.find('.form-error').fadeOut(500);
+                }, 5000);
+            }
+        } else {
+            console.log('Send email form detected.');
+            if (typeof originalError !== typeof undefined && originalError !== false) {
+                thisForm.find('.form-error').text(originalError);
+            }
+
+
+            error = validateFields(thisForm);
+
+
+            if (error === 1) {
+                $(this).closest('form').find('.form-error').fadeIn(200);
+                setTimeout(function() {
+                    $(thisForm).find('.form-error').fadeOut(500);
+                }, 3000);
+            } else {
+                // Hide the error if one was shown
+                $(this).closest('form').find('.form-error').fadeOut(200);
+                // Create a new loading spinner while hiding the submit button.
+                loadingSpinner = jQuery('<div />').addClass('form-loading').insertAfter($(thisForm).find('input[type="submit"]'));
+                $(thisForm).find('input[type="submit"]').hide();
+
+                jQuery.ajax({
+                    type: "POST",
+                    url: "mail/mail.php",
+                    data: thisForm.serialize(),
+                    success: function(response) {
+                        // Swiftmailer always sends back a number representing numner of emails sent.
+                        // If this is numeric (not Swift Mailer error text) AND greater than 0 then show success message.
+                        $(thisForm).find('.form-loading').remove();
+
+                        $(thisForm).find('input[type="submit"]').show();
+                        if ($.isNumeric(response)) {
+                            if (parseInt(response) > 0) {
+                                // For some browsers, if empty 'successRedirect' is undefined; for others,
+                                // 'successRedirect' is false.  Check for both.
+                                successRedirect = thisForm.attr('success-redirect');
+                                if (typeof successRedirect !== typeof undefined && successRedirect !== false && successRedirect !== "") {
+                                    window.location = successRedirect;
+                                }
+                                thisForm.find('input[type="text"]').val("");
+                                thisForm.find('textarea').val("");
+                                thisForm.find('.form-success').fadeIn(1000);
+
+                                thisForm.find('.form-error').fadeOut(1000);
+                                setTimeout(function() {
+                                    thisForm.find('.form-success').fadeOut(500);
+                                }, 5000);
+                            }
+                        }
+                        // If error text was returned, put the text in the .form-error div and show it.
+                        else {
+                            // Keep the current error text in a data attribute on the form
+                            thisForm.find('.form-error').attr('original-error', thisForm.find('.form-error').text());
+                            // Show the error with the returned error text.
+                            thisForm.find('.form-error').text(response).fadeIn(1000);
+                            thisForm.find('.form-success').fadeOut(1000);
+                        }
+                    },
+                    error: function(errorObject, errorText, errorHTTP) {
+                        // Keep the current error text in a data attribute on the form
+                        thisForm.find('.form-error').attr('original-error', thisForm.find('.form-error').text());
+                        // Show the error with the returned error text.
+                        thisForm.find('.form-error').text(errorHTTP).fadeIn(1000);
+                        thisForm.find('.form-success').fadeOut(1000);
+                        $(thisForm).find('.form-loading').remove();
+                        $(thisForm).find('input[type="submit"]').show();
+                    }
+                });
+            }
+        }
+        return false;
+    });
+
+    $('.validate-required, .validate-email').on('blur change', function() {
+        validateFields($(this).closest('form'));
+    });
+
+    $('form').each(function() {
+        if ($(this).find('.form-error').length) {
+            $(this).attr('original-error', $(this).find('.form-error').text());
+        }
+    });
+
+    function validateFields(form) {
+            var name, error, originalErrorMessage;
+
+            $(form).find('.validate-required[type="checkbox"]').each(function() {
+                if (!$('[name="' + $(this).attr('name') + '"]:checked').length) {
+                    error = 1;
+                    name = $(this).attr('name').replace('[]', '');
+                    form.find('.form-error').text('Please tick at least one ' + name + ' box.');
+                }
+            });
+
+            $(form).find('.validate-required').each(function() {
+                if ($(this).val() === '') {
+                    $(this).addClass('field-error');
+                    error = 1;
+                } else {
+                    $(this).removeClass('field-error');
+                }
+            });
+
+            $(form).find('.validate-email').each(function() {
+                if (!(/(.+)@(.+){2,}\.(.+){2,}/.test($(this).val()))) {
+                    $(this).addClass('field-error');
+                    error = 1;
+                } else {
+                    $(this).removeClass('field-error');
+                }
+            });
+
+            if (!form.find('.field-error').length) {
+                form.find('.form-error').fadeOut(1000);
+            }
+
+            return error;
+        }
+        // End contact form code
 
     // Get referrer from URL string 
     if (getURLParameter("ref")) {
@@ -368,6 +705,19 @@ $(document).ready(function() {
         $('section').removeClass('parallax');
     }
     
+    // Disqus Comments
+    
+    if($('.disqus-comments').length){
+		/* * * CONFIGURATION VARIABLES * * */
+		var disqus_shortname = $('.disqus-comments').attr('data-shortname');
+
+		/* * * DON'T EDIT BELOW THIS LINE * * */
+		(function() {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+    }
 
     // Load Google MAP API JS with callback to initialise when fully loaded
     if(document.querySelector('[data-maps-api-key]') && !document.querySelector('.gMapsAPI')){
@@ -419,39 +769,6 @@ $(window).load(function() {
     // Resize fullscreen video backgrounds to cover parent
 
     resizeVid();
-
-    // Image Sliders
-
-    $('.slider-all-controls').flexslider({});
-    $('.slider-paging-controls').flexslider({
-        animation: "slide",
-        directionNav: false
-    });
-    $('.slider-arrow-controls').flexslider({
-        controlNav: false
-    });
-    $('.slider-thumb-controls .slides li').each(function() {
-        var imgSrc = $(this).find('img').attr('src');
-        $(this).attr('data-thumb', imgSrc);
-    });
-    $('.slider-thumb-controls').flexslider({
-        animation: "slide",
-        controlNav: "thumbnails",
-        directionNav: true
-    });
-    $('.logo-carousel').flexslider({
-        minItems: 1,
-        maxItems: 4,
-        move: 1,
-        itemWidth: 200,
-        itemMargin: 0,
-        animation: "slide",
-        slideshow: true,
-        slideshowSpeed: 9000,
-        directionNav: false,
-        controlNav: false
-    });
-
 
     // Initialize twitter feed
 
