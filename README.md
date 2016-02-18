@@ -1,1 +1,1 @@
-## LiveIntent. .WD.
+## LiveIntent. WD.
