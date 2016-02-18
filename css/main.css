@@ -281,7 +281,7 @@ blockquote,
 input,
 select,
 textarea {
-  margin-bottom: 24px;
+  margin-bottom: 6px;
   margin-top: 0;
   padding: 0;
 }
@@ -544,6 +544,10 @@ blockquote .author {
   background: #59606E;
 }
 
+.bg-purple{
+  background:#BA358A;
+}
+
 .bg-gray{
   background: #d3d3d3;
 }
@@ -796,6 +800,12 @@ footer.bg-dark li,
   line-height: 27px;
   min-width: 0;
 }
+
+.btn-transparent{
+  background:transparent;
+  color: #fff;
+}
+
 .btn-filled {
   background: #47b475;
   color: #fff;
@@ -804,6 +814,11 @@ footer.bg-dark li,
 .btn-orange{
   color:#fff;
   background:#f79421;
+}
+
+.btn-login{
+  color:#F68F20 !important;
+  background:#fff !important;
 }
 .btn-white,
 .image-bg .btn,
@@ -1255,7 +1270,7 @@ nav ul {
 }
 .module {
   display: inline-block;
-  padding: 0 32px;
+  padding: 0 12px;
 }
 .module-group {
   display: inline-block;
@@ -1277,8 +1292,8 @@ nav .btn,
 .nav-utility {
   height: 45px;
   line-height: 43px;
-  border-bottom: 1px solid #ccc;
   overflow: hidden;
+  background:#f9f9f9;
 }
 .nav-utility i {
   position: relative;
@@ -1293,17 +1308,30 @@ nav .btn,
   overflow: hidden;
 }
 
-.nav-bar, .nav-bar-main {
+.nav-bar {
   height: 55px;
   max-height: 55px;
   line-height: 53px;
   border-bottom: 1px solid #ccc;
+}
+
+.nav-bar-main{
+  height: 55px;
+  max-height: 55px;
+  line-height: 53px;
+  border-bottom: 1px solid #ccc;
+  background:#f9f9f9;
 }
 .nav-bar-sub {
   height: 55px;
   max-height: 55px;
   line-height: 53px;
   border-bottom: 1px solid #ccc;
+}
+
+.drop-bottom a{
+  color:#F68F20 !important;
+  opacity: 0.8 !important;
 }
 .nav-bar .module,
 .nav-bar .module-group,
@@ -1317,7 +1345,7 @@ nav .btn,
   height: 55px;
 }
 .logo {
-  max-height: 60%;
+  max-height: 53px;
 }
 .logo-light {
   display: none;
@@ -1356,7 +1384,7 @@ nav.bg-dark .logo-dark {
 }
 .menu li a,
 .menu-sub li a {
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
@@ -1939,9 +1967,10 @@ nav.fixed {
   visibility: hidden;
   opacity: 0;
 }
-nav.fixed .nav-utility {
+/*nav.fixed .nav-utility {
   display: none;
-}
+}*/
+
 nav.fixed.scrolled {
   visibility: visible;
   opacity: 1;
@@ -3343,7 +3372,7 @@ form iframe.mail-list-form {
 }
 .page-title-3,
 .page-title-4 {
-  height: 240px;
+  height: 275px;
 }
 .page-title-4 .breadcrumb {
   position: relative;
