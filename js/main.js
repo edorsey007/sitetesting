@@ -34,6 +34,17 @@ $(document).ready(function() {
         $(this).css('background-position', 'initial');
     });
 
+    $(function() {
+    function backgroundScroll(el, width, speed){        
+        el.animate({'background-position' : '-'+width+'px'}, speed, 'linear', function(){
+            el.css('background-position','0');                
+            backgroundScroll(el, width, speed);
+        });
+    }
+    // 948 represents the width of the image in pixels and 60000 represents the speed it scrolls
+    backgroundScroll($('#container-hero'), 1800, 60000); 
+})
+
     // Fade in background images
 
     setTimeout(function() {
@@ -149,17 +160,17 @@ $(document).ready(function() {
 
     // Menu dropdown positioning
 
-    $('.menu > li > ul').each(function() {
-        var menu = $(this).offset();
-        var farRight = menu.left + $(this).outerWidth(true);
-        if (farRight > $(window).width() && !$(this).hasClass('mega-menu')) {
-            $(this).addClass('make-right');
-        } else if (farRight > $(window).width() && $(this).hasClass('mega-menu')) {
-            var isOnScreen = $(window).width() - menu.left;
-            var difference = $(this).outerWidth(true) - isOnScreen;
-            $(this).css('margin-left', -(difference));
-        }
-    });
+    // $('.menu > li > ul').each(function() {
+    //     var menu = $(this).offset();
+    //     var farRight = menu.left + $(this).outerWidth(true);
+    //     if (farRight > $(window).width() && !$(this).hasClass('mega-menu')) {
+    //         $(this).addClass('make-right');
+    //     } else if (farRight > $(window).width() && $(this).hasClass('mega-menu')) {
+    //         var isOnScreen = $(window).width() - menu.left;
+    //         var difference = $(this).outerWidth(true) - isOnScreen;
+    //         $(this).css('margin-left', -(difference));
+    //     }
+    // });
 
     //Mobile Menu
     //Sub Nav 
