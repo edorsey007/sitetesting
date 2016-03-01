@@ -1,0 +1,71 @@
+---
+layout: default
+title: LiveIntent | Press & Events
+
+---
+
+<div class="main-container bg-gray">
+{% include awards.html %}
+	<section>
+		<div class="row">
+		  <div class="container">
+			<div class="col-sm-12 col-md-6">
+			  <div class="media-wrapper">
+				<h3 class="mb32">LiveIntent in the Media</h3>
+				<ul>
+			   	{% for press in site.data.press %}
+				   <li>
+				   	<div class="press-box">
+						<a href="{{ press.link }}"><h5>{{ press.title }}</h5></a>
+						<h6>{{ press.publication }}</h6>
+						<h6>{{ press.date }}</h6>
+					</div>
+				   </li>
+				   {% endfor %}
+				</ul>
+				<a class="btn btn-sm btn-orange mb64" href="#">Full List</a>	
+			  </div><!--end of media wrapper-->
+			  <div class="press-wrapper">
+				<h3 class="mb32">LiveIntent in the Press</h3>
+			   <ul>
+			   	{% for press in site.data.press %}
+				   <li>
+				   	<div class="press-box">
+						<a href="{{ press.link }}"><h5>{{ press.title }}</h5></a>
+						<h6>{{ press.publication }}</h6>
+						<h6>{{ press.date }}</h6>
+					</div>
+				   </li>
+				   {% endfor %}
+				</ul>
+				<a class="btn btn-sm btn-orange" href="#">Full List</a>	
+			  </div><!--end of media wrapper-->
+			</div><!--end of media/press links-->
+			<div class="col-sm-5 col-md-offset-1 col-md-5">
+	            <div class="feature feature-3 boxed">
+	                <div class="right">
+	                    <h4 class="mb16">Media Inquiries</h4>
+	                    <h5>Adam Berkowitz</h5>
+	                    <h5 class="orange">aberkowitz@liveintent.com</h5>
+	                    <h5>212.792.5348 x203</h5>
+	                </div>
+	                    <hr>
+	                <div class="right">
+	                    <h4 class="mb16">Upcoming Events</h4>
+	                    {% for events in site.data.events %}
+	                    <ul>
+		                    <li>
+			                    <h5>{{ events.date }}</h5>
+			                    <h5>{{ events.location }}</h5>
+			                    <h5 class="mb24">{{ events.title }}</h5>
+		                    </li>
+	                    </ul>
+	                    {% endfor %}
+	                </div>
+	            </div>
+	            <!--end of events-->
+	        </div>
+	      </div>
+		</div>
+	</section>
+</div> <!--end of main container-->
