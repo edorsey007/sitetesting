@@ -5,7 +5,7 @@
  1. Global Styles
  2. Mixins
  3. Typography
- 4. Colours
+ 4. Colors
  5. Sections
  6. Buttons
  7. Nav
@@ -124,7 +124,11 @@ hr.short-thick {
   padding-left: 0;
 }
 .bg-primary .list-inline i {
-  color: #8ed3ab;
+  color: #F68F20;
+}
+
+.bg-white .list-inline i {
+  color: #F68F20;
 }
 .overflow-hidden {
   overflow: hidden;
@@ -347,7 +351,7 @@ h6,
 .h6 {
   font-size: 12px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 300;
 }
 @media all and (max-width: 767px) {
   h1,
@@ -532,7 +536,7 @@ blockquote .author {
     text-align: left !important;
   }
 }
-/*!---------- 4. COLOURS ----------*/
+/*!---------- 4. COLORS ----------*/
 
 
 .bg-primary {
@@ -566,6 +570,11 @@ blockquote .author {
   color: #fff;
 }
 
+.bg-fun-blue{
+  background:#235FAC;
+  color:#fff;
+}
+
 .color-body {
   color: #666;
 }
@@ -580,7 +589,7 @@ blockquote .author {
 }
 
 .orange{
-  color:#f79421;
+  color:#F68F20;
 }
 /*!---------- 5. SECTIONS ----------*/
 
@@ -897,6 +906,11 @@ body.btn-rounded .btn {
 .bg-primary .btn:hover {
   background: #fff;
   color: #f79421;
+}
+
+.vc-logo{
+  max-height: 125px;
+  padding: 10px;
 }
 
 /*!---------- 7. NAVIGATION -----------*/
@@ -4748,7 +4762,7 @@ footer.bg-dark a {
 .mb16 {
   margin-bottom: 16px;
 }
-.mb24 {
+.mb24 { 
   margin-bottom: 24px;
 }
 .mb30 {
@@ -4793,6 +4807,10 @@ footer.bg-dark a {
 .mb160 {
   margin-bottom: 160px;
 }
+.mr32{
+  margin-right:32px;
+}
+
 .mt0 {
   margin-top: 0 !important;
 }
@@ -4842,7 +4860,7 @@ footer.bg-dark a {
   margin-top: 120px;
 }
 .p32 {
-  padding: 0 32px;
+  padding: 32px;
 }
 .p24 {
   padding: 24px;
