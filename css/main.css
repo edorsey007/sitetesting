@@ -603,7 +603,9 @@ blockquote .author {
 .color-white {
   color: #fff;
 }
-
+.color-fun-blue{
+  color:#235FAC;
+}
 .color-picton-blue{
   color:#22ACE3;
 }
@@ -718,6 +720,10 @@ footer.bg-dark li,
 .container.image-bg .row {
   position: relative;
   z-index: 3;
+}
+
+.img-center{
+  margin: 0 auto;
 }
 .background-image-holder {
   position: absolute;
