@@ -40,18 +40,23 @@ title: LiveIntent | History
 <section class="pt32 pb32 bg-picton-blue">
 	<div class="container">
 		<div class="row">
-			<h3 class="text-center color-white">Leadership Team</h2>
-			<div class="col-xs-4 col-md-12 text-center">
-				<a href="#"><img class="vc-logo" src="/img/about/headshots/matt-keiser.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/about/headshots/matt-keiser.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/about/headshots/matt-keiser.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/about/headshots/matt-keiser.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/about/headshots/matt-keiser.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/about/headshots/matt-keiser.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/about/headshots/matt-keiser.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/about/headshots/matt-keiser.png"></a>
-				<a class="btn btn-lg btn-transparent mt16 pull-right" href="/careers/departments">More of the squad</a>
+		    <h3 class="mb32 text-center">Our Leadership</h3>
+			<div class="col-sm-12">
+			  <ul class="list-inline text-center">
+				{% for execs in site.data.execs %}
+						<li class="mb32">
+							<div class="sprite {{ execs.headshot }}"></div>
+							<h5 class="pt8">{{ execs.name }}</h5>
+							<h6>{{ execs.title }}</h6>
+							<a href="https://www.linkedin.com/in/{{ execs.linkedin }}">
+								<i class="icon-xs ti-linkedin"></i>
+							</a>
+						</li>
+				{% endfor %}
+			  </ul>
+			  <a class="btn btn-lg btn-transparent mt16 pull-right" href="/about/team">More of the squad</a>
 			</div>
+		</div>
 	</div>
 </section>
 <section class="pt32 pb32 bg-fun-blue">

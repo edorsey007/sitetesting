@@ -1,39 +1,75 @@
-- name: Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
-  title: Chief Executive Officer
-  linkedin: mrkeiser
+- name: Liron Gitig
+  headshot: icon-Liron-Gitig
+  title: Board Member
 
-- name: Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
-  title: Chief Executive Officer
-  linkedin: mrkeiser
+- name: William Raduchel
+  headshot: icon-William_Raduchel
+  title: Board Member
 
-- name:  Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
-  title: Chief Executive Officer
-  linkedin: mrkeiser
+- name: Roger Lee
+  headshot: icon-Roger_Lee
+  title: Board Member
 
-- name: Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
-  title: Chief Executive Officer
-  linkedin: mrkeiser
+- name: Jason Pressman
+  headshot: icon-Jason_Pressman
+  title: Board Member
 
-- name: Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
-  title: Chief Executive Officer
-  linkedin: mrkeiser
+- name: Chris Fralic
+  headshot: icon-Chris_Frallic
+  title: Board Observer
 
-- name: Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
-  title: Chief Executive Officer
-  linkedin: mrkeiser
+- name: Ed Zimmerman 
+  headshot: icon-Zimmerman
+  title: Advisor
 
-- name: Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
-  title: Chief Executive Officer
-  linkedin: mrkeiser
+- name: Sean O' Neal
+  headshot: icon-Sean_ONeal
+  title: Advisor
 
-- name: Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
-  title: Chief Executive Officer
-  linkedin: mrkeiser
+- name: Scott Becker
+  headshot: icon-Scott_Becker
+  title: Advisor
+
+- name: Richard Jasen
+  headshot: icon-Richard_Jasen
+  title: Advisor
+
+- name: Josh Baer
+  headshot: icon-Josh_Baer
+  title: Board Member
+
+- name: John Lambros
+  headshot: icon-John_Lambros
+  title: Advisor
+
+- name: Hunter Walk
+  headshot: icon-Hunter_Walk
+  title: Advisor
+
+- name: Howard Lerman
+  headshot: icon-Howard_Lerman
+  title: Advisor
+
+- name: Geoff Vuleta
+  headshot: icon-Geoff_Vuleta
+  title: Advisor
+
+- name: Craig Swerdloff
+  headshot: icon-Craig_Swerdloff
+  title: Advisor
+
+- name: Brian O' Kelley
+  headshot: icon-Brian_OKelley
+  title: Advisor
+
+- name: Bill Wise
+  headshot: icon-Bill_Wise
+  title: Advisor
+
+- name: Ben Lerer
+  headshot: icon-Ben_Lerer
+  title: Advisor
+
+- name: Ari Jacoby
+  headshot: icon-Ari_Jacoby
+  title: Advisor

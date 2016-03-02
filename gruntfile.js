@@ -3,9 +3,9 @@ module.exports = function (grunt) {
   grunt.initConfig({
     sprite:{
       all: {
-        src: '/img/to-sprite/sprites/*.png',
-        dest: '/img/sprites/spritesheet.png',
-        destCss: '/css/sprites.css'
+        src: 'img/to-sprite/*.png',
+        dest: 'img/sprites/spritesheet.png',
+        destCss: 'css/sprites.css'
       }
     }
   });

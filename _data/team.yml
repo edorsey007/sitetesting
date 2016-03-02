@@ -1,39 +1,107 @@
 - name: Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
+  headshot: icon-matt-keiser
   title: Chief Executive Officer
   linkedin: mrkeiser
 
-- name: Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
-  title: Chief Executive Officer
-  linkedin: mrkeiser
+- name: Jon Beck
+  headshot: icon-jon-beck
+  title: EVP Platform
+  linkedin: beckjon
 
-- name:  Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
-  title: Chief Executive Officer
-  linkedin: mrkeiser
+- name: Suneet Bhatt
+  headshot: icon-suneet-bhatt
+  title: Chief Marketing Officer
+  linkedin: suneetbhatt
 
-- name: Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
-  title: Chief Executive Officer
-  linkedin: mrkeiser
+- name: Kyle Brown
+  headshot: icon-kyle-brown
+  title: VP Solutions Engineering
+  linkedin: kyle-brown-1969948
 
-- name: Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
-  title: Chief Executive Officer
-  linkedin: mrkeiser
+- name: Kerel Cooper
+  headshot: icon-kerel-cooper
+  title: VP Platform Development
+  linkedin: kerelcooper
 
-- name: Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
-  title: Chief Executive Officer
-  linkedin: mrkeiser
+- name: Gary Deutsch
+  headshot: icon-gary-deutsch
+  title: Chief Financial Officer
+  linkedin: gary-deutsch-140194
 
-- name: Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
-  title: Chief Executive Officer
-  linkedin: mrkeiser
+- name: Joseph Dressler
+  headshot: icon-joseph-dressler
+  title: VP National Sales
+  linkedin: josephdressler
 
-- name: Matt Keiser
-  headshot: "/img/about/headshots/Matt-keiser.png"
-  title: Chief Executive Officer
-  linkedin: mrkeiser
+- name: John Engler
+  headshot: icon-john-engler
+  title: VP Sales
+  linkedin: johnengler
+
+- name: Dave Hendricks
+  headshot: icon-dave-hendricks
+  title: Manging Director UK
+  linkedin: davehendricks
+
+- name: Carsten Hyldahl
+  headshot: icon-carsten-hydahl
+  title: Cheif Technology Officer
+  linkedin: carstenhyldahl
+
+- name: Thomas Jenson
+  headshot: icon-suneet-bhatt
+  title: SVP Business Development
+  linkedin: thomasdaljensen
+
+- name: Jason Kelly
+  headshot: icon-jason-kelly
+  title: President
+  linkedin: jlkelly
+
+- name: Kamuti Kiteme
+  headshot: icon-kamuti-kiteme
+  title: VP Platform Development
+  linkedin: kerelcooper
+
+- name: Audrey MacIsaac
+  headshot: icon-audrey-maclsaac
+  title: VP Business Operations
+  linkedin: audreymhenderson
+
+- name: Boris Mouzykantskii
+  headshot: icon-boris-mouzykantskii
+  title: Chief Scientist
+
+- name: Jason Oates
+  headshot: icon-jason-oates
+  title: Chief Business Officer
+  linkedin: jasonoates
+
+- name: Karla Partilla
+  headshot: icon-karla-partilla
+  title: VP Publisher Development
+  linkedin: karla-partilla-971b762
+
+- name: Eric Raab
+  headshot: icon-eric-raab
+  title: EVP Engineering
+  linkedin: ericraab
+
+- name: Shiven Ramji
+  headshot: icon-shiven-ramji
+  title: Chief Product Officer
+  linkedin: shivenramji
+
+- name: Julia Rieger
+  headshot: icon-julia-rieger
+  title: VP Product Marketing
+  linkedin: juliarieger
+
+- name: Fernando Schwartz
+  headshot: icon-fernando-schwartz
+  title: Chief Data Scientist
+
+- name: Ali Swerdlow
+  headshot: icon-ali-swerdlow
+  title: VP Industry Relations
+  linkedin: aliswerdlow

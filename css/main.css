@@ -97,6 +97,15 @@ hr.short-thick {
   border-top: 5px solid #ccc;
   opacity: 1 !important;
 }
+
+.sprite {
+    display: inline-block;
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+
 .image-bg hr {
   border-color: #fff;
   opacity: .6;
@@ -301,7 +310,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1,
 h2,
@@ -415,7 +424,7 @@ h6.uppercase,
   font-weight: 700;
 }
 .bold-h6 {
-  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
@@ -481,7 +490,7 @@ a:hover {
   text-decoration: none;
 }
 .label {
-  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
@@ -497,7 +506,7 @@ a:hover {
 }
 blockquote {
   overflow: hidden;
-  font-family: "Merriweather", "Georgia", Times New Roman, Times, serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 40px;
   font-style: italic;
@@ -517,7 +526,7 @@ blockquote .author {
   margin-top: 16px;
 }
 .number {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 @media all and (max-width: 767px) {
   br {
@@ -760,15 +769,15 @@ footer.bg-dark li,
   transform: translateX(-50%);
 }
 .btn {
-  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   border: 2px solid #f79421;
-  padding: 0 26px;
+  padding: 0 8px;
   height: 40px;
   min-width: 150px;
   line-height: 36px;
   font-size: 12px;
   font-weight: 700;
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
   letter-spacing: 1px;
   border-radius: 2;
   color: #fff;
@@ -776,8 +785,8 @@ footer.bg-dark li,
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
-  margin-right: 8px;
-  margin-bottom: 24px;
+  /*margin-right: 8px;*/
+  /*margin-bottom: 24px;*/
 }
 .btn:last-child,
 .btn:last-of-type {
@@ -1173,8 +1182,8 @@ body.btn-rounded .btn {
 }
 
 .nav-utility {
-  height: 45px;
-  line-height: 43px;
+  height: 25px;
+  line-height: 25px;
   overflow: hidden;
   background:#235FAC;
   padding-left: 15px;
@@ -1190,9 +1199,9 @@ body.btn-rounded .btn {
 }
 
 .navbar, .navbar-default{
-  background: url('/img/nav/nav-bg.png');
+  /*background: url('/img/nav/nav-bg.png');
   background-position: -10px;
-  background-size:cover;
+  background-size:cover;*/
   background-color:#002690;
   margin-bottom:0px !important;
   border-radius:0 !important;
@@ -1321,8 +1330,12 @@ body.btn-rounded .btn {
 .icon-sm {
   font-size: 32px;
 }
+
 .icon-xs {
   font-size: 18px;
+  /*border:1px solid white;
+  border-radius:50%;
+  padding: 7px;*/
 }
 @media all and (max-width: 767px) {
   .icon {
@@ -1394,7 +1407,7 @@ body.btn-rounded .btn {
 input,
 select,
 textarea {
-  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 input[type="text"],
 textarea,
@@ -1414,7 +1427,7 @@ input[type="password"] {
   outline: 1px red !important;
 }
 .input-with-label span {
-  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 11px;
   text-transform: uppercase;
   color: #292929;
@@ -1840,7 +1853,7 @@ form iframe.mail-list-form {
   background: #e4e4e4;
 }
 .accordion-1 .title span {
-  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
@@ -1968,7 +1981,7 @@ form iframe.mail-list-form {
   background: #eee;
 }
 .button-tabs .tab-title span {
-  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
@@ -2056,7 +2069,7 @@ form iframe.mail-list-form {
   position: relative;
 }
 .text-tabs .tab-title span {
-  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
@@ -2135,7 +2148,7 @@ form iframe.mail-list-form {
   margin-bottom: 16px;
 }
 .icon-tabs .tab-title span {
-  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
@@ -2184,7 +2197,7 @@ form iframe.mail-list-form {
   border-radius: 0;
 }
 .progress-1 .progress-bar span {
-  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
@@ -2200,7 +2213,7 @@ form iframe.mail-list-form {
   margin-bottom: 8px;
 }
 .progress-2 span {
-  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
@@ -2242,7 +2255,7 @@ form iframe.mail-list-form {
 }
 .breadcrumb-2 li a,
 .breadcrumb-2 li {
-  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
@@ -2291,7 +2304,7 @@ form iframe.mail-list-form {
   margin: 0;
 }
 .pagination li {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .pagination li a {
   width: 32px;
@@ -2489,7 +2502,7 @@ form iframe.mail-list-form {
   padding: 48px 32px;
 }
 .pricing-table .price {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 80px;
   line-height: 80px;
   font-weight: 300;
@@ -2625,7 +2638,7 @@ form iframe.mail-list-form {
   margin-bottom: 0;
 }
 .widget .title {
-  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
