@@ -1,0 +1,270 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+
+.icon-Ari_Jacoby {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -620px -560px;
+  width: 155px;
+  height: 155px;
+}
+.icon-Ben_Lerer {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -465px -560px;
+  width: 155px;
+  height: 155px;
+}
+.icon-Bill_Wise {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -465px -405px;
+  width: 155px;
+  height: 155px;
+}
+.icon-Brian_OKelley {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -250px;
+  width: 155px;
+  height: 155px;
+}
+.icon-Chris_Frallic {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -155px -250px;
+  width: 155px;
+  height: 155px;
+}
+.icon-Craig_Swerdloff {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -310px -250px;
+  width: 155px;
+  height: 155px;
+}
+.icon-Geoff_Vuleta {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -500px 0px;
+  width: 155px;
+  height: 155px;
+}
+.icon-Howard_Lerman {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -500px -155px;
+  width: 155px;
+  height: 155px;
+}
+.icon-Hunter_Walk {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -405px;
+  width: 155px;
+  height: 155px;
+}
+.icon-Jason_Pressman {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -155px -405px;
+  width: 155px;
+  height: 155px;
+}
+.icon-John_Lambros {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -310px -405px;
+  width: 155px;
+  height: 155px;
+}
+.icon-Josh_Baer {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -810px 0px;
+  width: 155px;
+  height: 155px;
+}
+.icon-Liron-Gitig {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -810px -455px;
+  width: 150px;
+  height: 150px;
+}
+.icon-Richard_Jasen {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -655px 0px;
+  width: 155px;
+  height: 155px;
+}
+.icon-Roger_Lee {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -655px -155px;
+  width: 155px;
+  height: 155px;
+}
+.icon-Scott_Becker {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -655px -310px;
+  width: 155px;
+  height: 155px;
+}
+.icon-Sean_ONeal {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -560px;
+  width: 155px;
+  height: 155px;
+}
+.icon-William_Raduchel {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -155px -560px;
+  width: 155px;
+  height: 155px;
+}
+.icon-Zimmerman {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -310px -560px;
+  width: 155px;
+  height: 155px;
+}
+.icon-ali-swerdlow {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -715px;
+  width: 150px;
+  height: 150px;
+}
+.icon-audrey-maclsaac {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -810px -155px;
+  width: 150px;
+  height: 150px;
+}
+.icon-boris-mouzykantskii {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1115px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-careers-dash {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -250px 0px;
+  width: 250px;
+  height: 250px;
+}
+.icon-careers-tovah {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px 0px;
+  width: 250px;
+  height: 250px;
+}
+.icon-carsten-hydahl {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -150px -715px;
+  width: 150px;
+  height: 150px;
+}
+.icon-dave-hendricks {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -300px -715px;
+  width: 150px;
+  height: 150px;
+}
+.icon-eric-raab {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -450px -715px;
+  width: 150px;
+  height: 150px;
+}
+.icon-fernando-schwartz {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -600px -715px;
+  width: 150px;
+  height: 150px;
+}
+.icon-gary-deutsch {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -750px -715px;
+  width: 150px;
+  height: 150px;
+}
+.icon-jason-kelly {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -965px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-jason-oates {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -965px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-john-engler {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -965px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-jon-beck {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -965px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-joseph-dressler {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -965px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-julia-rieger {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -865px;
+  width: 150px;
+  height: 150px;
+}
+.icon-kamuti-kiteme {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -150px -865px;
+  width: 150px;
+  height: 150px;
+}
+.icon-karla-partilla {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -300px -865px;
+  width: 150px;
+  height: 150px;
+}
+.icon-kerel-cooper {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -450px -865px;
+  width: 150px;
+  height: 150px;
+}
+.icon-kyle-brown {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -600px -865px;
+  width: 150px;
+  height: 150px;
+}
+.icon-matt-keiser {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -750px -865px;
+  width: 150px;
+  height: 150px;
+}
+.icon-shiven-ramji {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -900px -865px;
+  width: 150px;
+  height: 150px;
+}
+.icon-suneet-bhatt {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1115px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-thomas-jenson {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -810px -305px;
+  width: 150px;
+  height: 150px;
+}
