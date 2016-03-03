@@ -432,11 +432,8 @@ h6.uppercase,
 }
 .bold-h6 {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 24px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 2px;
   font-weight: 700;
 }
 p,
@@ -573,7 +570,11 @@ blockquote .author {
 }
 
 .bg-gray{
-  background: #d3d3d3;
+  background: #E8E8E8;
+}
+
+.bg-gray a{
+  color:#F68F20;
 }
 
 .gray-overlay{
@@ -589,6 +590,16 @@ blockquote .author {
 .bg-fun-blue{
   background:#235FAC;
   color:#fff;
+}
+
+.bg-conifer{
+  background:#C1D84F;
+  color:#fff;
+}
+
+.bg-orange{
+  background:#F68F20;
+  color: #fff;
 }
 
 .color-body {
@@ -610,6 +621,11 @@ blockquote .author {
   color:#22ACE3;
 }
 
+.color-conifer{
+  color:#C1D84F;
+  font-weight:700;
+}
+
 .orange{
   color:#F68F20;
 }
@@ -624,9 +640,19 @@ section{
   position: relative;
   overflow: hidden;
 }
+
+.section-sm{
+  padding:10px 0 !important;
+}
+
 footer {
   padding: 72px 0px 0px 20px;
 }
+
+/*.footer-row{
+  border-bottom:1px solid white;
+}*/
+
 .fullscreen {
   height: 100vh;
 }
@@ -713,6 +739,22 @@ footer.bg-dark li,
 .image-bg li {
   color: #ffffff;
 }
+
+.image-bg-lite h1,
+.image-bg-lite h2,
+.image-bg-lite h3,
+.image-bg-lite h4,
+.image-bg-lite h5,
+.image-bg-lite h6 {
+  color: #59606E;
+}
+.image-bg-lite p,
+.image-bg-lite span,
+.image-bg-lite ul,
+.image-bg-lite ol,
+.image-bg-lite li {
+  color: #59606E;
+}
 .image-bg .container {
   position: relative;
   z-index: 3;
@@ -725,6 +767,117 @@ footer.bg-dark li,
 .img-center{
   margin: 0 auto;
 }
+
+.hero-strip{
+  position: absolute !important;
+  bottom: 0px;
+  width: 100%;
+  height:125px;
+  opacity: 0.9;
+
+}
+
+.hero-strip-lg{
+  position: absolute !important;
+  bottom: 0px;
+  width: 100%;
+  height:130px;
+  opacity: 0.95;
+
+}
+
+.hero-strip-headshot{
+  padding-left:20px;
+  float:right;
+  border-left:1px solid white;
+}
+
+.border-left{
+  border-left:1px solid white;
+}
+
+.circle {
+  display: inline-block;
+  min-width: 15%;
+  /* to allow placement of numbers on top of circles instead of below them */
+  white-space: nowrap;
+}
+
+.circle:before {
+  border-radius: 50%;
+  /* = 15%, almost gives us viewport width unit (15vw) */
+  width: 100%;
+  padding-bottom: 100%;
+  /* this way we should have 1px gap between circles */
+  margin: 15px .5px;
+  background: #F68F20;
+  content: '';
+  display: inline-block;
+  /* circle to the middle, so that... [1] */
+  vertical-align: middle;
+  
+  /* to use viewport based units we can safely override the old units in this way */
+  padding-bottom: 0vw;
+  width: 12vw;
+  height: 12vw;
+}
+
+.circle p {
+  color:#fff;
+  display: inline-block;
+  font-size: 3em;
+  /* -.5em = white space between p elements... */
+  margin: 0 -.5em 0 -100%;
+  padding: 0;
+  /* ... text can be middle too! [1] */
+  vertical-align: middle;
+  white-space: normal;
+  width: 100%;
+  /* for some reason that I can't figure out right now...
+    viewport units eliminate the white space issue */
+  margin: 0 0 0 -15vw;
+  width: 17vw;
+}
+
+.circle-3:before {
+  border-radius: 50%;
+  /* = 15%, almost gives us viewport width unit (15vw) */
+  width: 100%;
+  padding-bottom: 100%;
+  /* this way we should have 1px gap between circles */
+  margin: 15px .5px;
+  background: #F68F20;
+  content: '';
+  display: inline-block;
+  /* circle to the middle, so that... [1] */
+  vertical-align: middle;
+  
+  /* to use viewport based units we can safely override the old units in this way */
+  padding-bottom: 0vw;
+  width: 12vw;
+  height: 12vw;
+}
+
+.circle-3 p {
+  color:#fff;
+  display: inline-block;
+  font-size: 3em;
+  /* -.5em = white space between p elements... */
+  margin: 0 -.5em 0 -100%;
+  padding: 0;
+  /* ... text can be middle too! [1] */
+  vertical-align: middle;
+  white-space: normal;
+  width: 100%;
+  /* for some reason that I can't figure out right now...
+    viewport units eliminate the white space issue */
+  margin: 0 0 0 -14vw;
+  width: 15vw;
+}
+.circle-container{
+  text-align:center;
+}
+
 .background-image-holder {
   position: absolute;
   width: 100%;
@@ -862,7 +1015,7 @@ footer.bg-dark li,
 
 .btn-orange{
   color:#fff;
-  background:#f79421;
+  background:#F68F20;
   margin-top: 10px;
 }
 
@@ -4669,6 +4822,10 @@ footer.bg-dark a {
 .footer-1 .sub {
   opacity: .5;
 }
+
+footer span{
+  color:#fff;
+}
 .social-list {
   margin: 0;
 }
@@ -4841,6 +4998,10 @@ footer.bg-dark a {
   margin-right:32px;
 }
 
+.ml16{
+  margin-left:16px;
+}
+
 .mt0 {
   margin-top: 0 !important;
 }
@@ -4895,11 +5056,17 @@ footer.bg-dark a {
 .p24 {
   padding: 24px;
 }
+.p10{
+  padding: 10px;
+}
 .p0 {
   padding: 0;
 }
 .pl62{
   padding-left:62px;
+}
+.pr10{
+  padding-right: 10px;
 }
 .pt0 {
   padding-top: 0;
