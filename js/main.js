@@ -34,16 +34,16 @@ $(document).ready(function() {
         $(this).css('background-position', 'initial');
     });
 
-    $(function() {
-    function backgroundScroll(el, width, speed){        
-        el.animate({'background-position' : '-'+width+'px'}, speed, 'linear', function(){
-            el.css('background-position','0');                
-            backgroundScroll(el, width, speed);
-        });
-    }
+    // $(function() {
+    // function backgroundScroll(el, width, speed){        
+    //     el.animate({'background-position' : '-'+width+'px'}, speed, 'linear', function(){
+    //         el.css('background-position','0');                
+    //         backgroundScroll(el, width, speed);
+    //     });
+    // }
     // 948 represents the width of the image in pixels and 60000 represents the speed it scrolls
-    backgroundScroll($('#container-hero'), 1800, 60000); 
-})
+//     backgroundScroll($('#container-hero'), 1800, 60000); 
+// })
 
     // Fade in background images
 
