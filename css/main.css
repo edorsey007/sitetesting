@@ -623,7 +623,6 @@ blockquote .author {
 
 .color-conifer{
   color:#C1D84F;
-  font-weight:700;
 }
 
 .orange{
@@ -652,8 +651,35 @@ footer {
 .home-i{
   font-size:4rem !important;
   color:#235FAC !important;
+  z-index: 8
 }
 
+.home-a{
+  font-size:10rem !important;
+  color:#235FAC !important;
+}
+
+/*.home-a:hover{
+  font-size:10rem !important;
+  color:#fff !important;
+}*/
+
+.home-p{
+  font-size:10rem !important;
+  color:#C1D84F !important;
+}
+/*.home-p:hover{
+  font-size:10rem !important;
+  color:#fff !important;
+}*/
+.home-m{
+  font-size:10rem !important;
+  color:#F68F20 !important;
+}
+/*.home-m:hover{
+  font-size:10rem !important;
+  color:#fff !important;
+}*/
 /*.footer-row{
   border-bottom:1px solid white;
 }*/
@@ -708,7 +734,7 @@ footer.bg-dark li,
 }
 
 .hero-overlay{
-  z-index: 999;
+  z-index: 10;
 }
 .overlay:before {
   position: absolute;
@@ -722,7 +748,7 @@ footer.bg-dark li,
   z-index: 2;
 }
 
-.overlay:before {
+.overlay-hero:before {
   position: absolute;
   content: '';
   width: 100%;
@@ -1356,11 +1382,11 @@ body.btn-rounded .btn {
     padding: 10px 10px 15px !important;
     width:90% !important; 
   }
-    .nav-list > li > a > span {
+   /* .nav-list > li > a > span {
     display: block;
     padding: 10px !important;
     background: black;
-  }
+  }*/
 } /*end of media queries for mobile menu*/
 
 .navbar-brand {
@@ -1437,13 +1463,39 @@ body.btn-rounded .btn {
   width:23%; 
 }
 
+ .nav-list > li > a > span.advertiser:hover {
+  display: block;
+  background: #fff;
+  color:#22ACE3;
+  border:2px solid #22ACE3;
+}
+.nav-list > li > a > span.publisher:hover {
+  display: block;
+  background: #fff;
+  color:#C1D84F;
+  border:2px solid #C1D84F;
+}
+.nav-list > li > a > span.marketer:hover{
+  display: block;
+  background: #fff;
+  color:#F68F20;
+  border:2px solid #F68F20;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus{
+  background:#235FAC !important;
+}
+
 .nav-list > li > a:hover { text-decoration: none; }
 .nav-list > li > a > span {
+  font-weight:700;
+  font-size:1.8rem;
   display: block;
-  /*font-weight: bold;
-  text-transform: uppercase;*/
   padding: 30px;
-  background: black;
+  background: transparent;
+  color:#fff;
+  border:2px solid #fff;
 }
 
 .mega-dropdown { position: static !important; }
@@ -1451,14 +1503,32 @@ body.btn-rounded .btn {
   padding: 20px 15px 15px;
   text-align: center;
   width: 100%;
-  background: #2177E8;
+  opacity:0.95;
+  background: #235FAC;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus{
+  background-color:#002690 !important;
 }
 
 .dropdown-menu{
+  opacity:0.9 !important;
+  background: #235FAC !important;
   border:0px !important;
   border-radius:0px !important;
   box-shadow:0px !important;
   -webkit-box-shadow:0px !important;
+}
+
+.dropdown-menu>li>a{
+  color:#fff !important;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  color:#F68F20 !important;
 }
 
 /*!---------- 8. TOOLTIPS ----------*/
@@ -2519,6 +2589,61 @@ form iframe.mail-list-form {
   padding: 32px;
   background: #f8f8f8;
 }
+.feature.boxed.a {
+  border-top:20px solid #22ACE3;
+  border-left: 1px solid #22ACE3;
+  border-right: 1px solid #22ACE3;
+  border-bottom:1px solid #22ACE3;
+  padding: 32px;
+  background: #fff;
+}
+.feature.boxed.p {
+  border-top:20px solid #C1D84F;
+  border-left: 1px solid #C1D84F;
+  border-right: 1px solid #C1D84F;
+  border-bottom:1px solid #C1D84F;
+  padding: 32px;
+  background: #fff;
+}
+.feature.boxed.m {
+  border-top:20px solid #F68F20;
+  border-left: 1px solid #F68F20;
+  border-right: 1px solid #F68F20;
+  border-bottom:1px solid #F68F20;
+  padding: 32px;
+  background: #fff;
+}
+.feature.boxed.a:hover {
+  padding: 32px;
+  background: #22ACE3;
+  color:#fff;
+}
+.feature.boxed.p:hover {
+  padding: 32px;
+  background: #C1D84F;
+  color:#fff;
+}
+.feature.boxed.m:hover{
+  padding: 32px;
+  background: #F68F20;
+  color:#fff;
+}
+.feature.boxed.a:hover > .btn,
+.feature.boxed.p:hover > .btn,
+.feature.boxed.m:hover > .btn{
+  background:#fff;
+  color:#F68F20;
+  border:0px !important;
+}
+.feature.boxed.a:hover >.home-a,
+.feature.boxed.p:hover >.home-p,
+.feature.boxed.m:hover >.home-m,
+.feature.boxed.a:hover > h4,
+.feature.boxed.p:hover > h4,
+.feature.boxed.m:hover > h4{
+  color:#fff !important;
+}
+
 .feature.boxed.bg-dark {
   background: #292929;
 }
@@ -3150,7 +3275,7 @@ img {
 
 #container-hero {
 width: 100%;
-height: 400px;
+/*height: 400px;*/
 background: url(/img/home/home-hero.png);
 }
 

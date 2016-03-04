@@ -34,16 +34,16 @@ $(document).ready(function() {
         $(this).css('background-position', 'initial');
     });
 
-    // $(function() {
-    // function backgroundScroll(el, width, speed){        
-    //     el.animate({'background-position' : '-'+width+'px'}, speed, 'linear', function(){
-    //         el.css('background-position','0');                
-    //         backgroundScroll(el, width, speed);
-    //     });
-    // }
+    $(function() {
+    function backgroundScroll(el, width, speed){        
+        el.animate({'background-position' : '-'+width+'px'}, speed, 'linear', function(){
+            el.css('background-position','0');                
+            backgroundScroll(el, width, speed);
+        });
+    }
     // 948 represents the width of the image in pixels and 60000 represents the speed it scrolls
-//     backgroundScroll($('#container-hero'), 1800, 60000); 
-// })
+    backgroundScroll($('#container-hero'), 1800, 60000); 
+})
 
     // Fade in background images
 
@@ -229,13 +229,13 @@ $(document).ready(function () {
     $(".bottom-menu").toggleClass("bottom-animate");
   });
 
-  $('.mobile-overlay').on('click', function(){
-        $(".mobilenav").fadeToggle(200);
-        $(".top-menu").toggleClass("top-animate");
-        $(".mid-menu").toggleClass("mid-animate");
-        $(".bottom-menu").toggleClass("bottom-animate");   
-        open = false;
-    });
+  // $('.mobile-overlay').on('click', function(){
+  //       $(".mobilenav").fadeToggle(200);
+  //       $(".top-menu").toggleClass("top-animate");
+  //       $(".mid-menu").toggleClass("mid-animate");
+  //       $(".bottom-menu").toggleClass("bottom-animate");   
+  //       open = false;
+  //   });
 });
 
 
