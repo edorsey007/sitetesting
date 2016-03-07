@@ -470,7 +470,7 @@ a:hover {
 }
 a {
   font-weight: 600;
-  color: #fff;
+  color: #235FAC;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -493,7 +493,7 @@ a {
   opacity: 1;
 }
 a:hover {
-  color: #F7B733;
+  color: #F68F20;
   text-decoration: none;
 }
 .label {
@@ -1518,6 +1518,10 @@ body.btn-rounded .btn {
 .nav .open > a:hover,
 .nav .open > a:focus{
   background-color:#002690 !important;
+}
+
+.nav > li > a{
+  color: #fff !important;
 }
 
 .dropdown-menu{
@@ -2658,6 +2662,10 @@ form iframe.mail-list-form {
 .feature.bordered {
   padding: 32px;
   border: 1px solid #ccc;
+}
+
+.feature-bordered{
+  border:2px solid #C6C6CA;
 }
 .feature {
   margin-bottom: 24px;
