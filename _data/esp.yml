@@ -1,0 +1,139 @@
+- name: Active Campaign
+  link: http://www.activecampaign.com/
+  image: icon-activecampaign-livecertified
+
+- name: Acxiom
+  link: http://www.acxiom.com/
+  image: icon-acxiom-livecertified
+
+- name: Adestra
+  link: http://www.adestra.com/
+  image: icon-adestra-livecertified
+
+- name: Adobe
+  link: http://www.adobe.com/marketing-cloud/campaign-management.html
+  image: icon-adobe-livecertified
+
+- name: Bluehornet
+  link: http://www.bluehornet.com/
+  image: icon-bluehornet-livecertified
+
+- name: Boomtrain
+  link: http://boomtrain.com/
+  image: icon-boomtrain-livecertified
+
+- name: Bronto
+  link: http://bronto.com/
+  image: icon-bronto-livecertified
+
+- name: Campaign Monitor
+  link: https://www.campaignmonitor.com/
+  image: icon-campaignmonitor-livecertified
+
+- name: Campaigner
+  link: http://www.campaigner.com/
+  image: icon-campaigner-livecertified
+
+- name: Communicator
+  link: https://www.communicatorcorp.com/
+  image: icon-communicator-livecertified
+
+- name: Cordial
+  link: http://cordial.io/
+  image: icon-cordial-livecertified
+
+- name: Emma
+  link: http://myemma.com/
+  image: icon-emma-livecertified
+
+- name: Emarsys
+  link: http://www.emarsys.com/en/
+  image: icon-emarsys-livecertified
+
+- name: Epsilon
+  link: http://www.epsilon.com/
+  image: icon-epsilon-livecertified
+
+- name: Experian
+  link: http://www.experian.com/marketing-services/cheetahmail.html
+  image: icon-experian-livecertified
+
+- name: Expert Sender
+  link: http://www.expertsender.com/
+  image: icon-expertsender-livecertified
+
+- name: GetResponse
+  link: http://www.getresponse.com/
+  image: icon-getresponse-livecertified
+
+- name: iContact
+  link: https://www.icontact.com/
+  image: icon-icontact-livecertified
+
+- name: Listrak
+  link: http://www.listrak.com/
+  image: icon-listrak-livecertified
+
+- name: Mailchimp
+  link: http://mailchimp.com/
+  image: icon-mailchimp-livecertified
+
+- name: Mailup
+  link: http://www.mailup.com/
+  image: icon-mailup-livecertified
+
+- name: Maropost
+  link: http://www.maropost.com/
+  image: icon-maropost-livecertified
+
+- name: MessageGears
+  link: http://messagegears.com/
+  image: icon-messagegears-livecertified
+
+- name: News@Me
+  link: http://newsatme.com/
+  image: icon-newsme-livecertified
+
+- name: Ongage
+  link: https://www.ongage.com/
+  image: icon-ongage-livecertified
+
+- name: PostUp
+  link: http://www.postup.com/
+  image: icon-postup-livecertified
+
+- name: Predict
+  link: http://simplypredict.com/
+  image: icon-predict-livecertified
+
+- name: Pure360
+  link: http://www.pure360.com/
+  image: icon-pure360-livecertified
+
+- name: Sailthru
+  link: http://www.sailthru.com/
+  image: icon-sailthru-livecertified
+
+- name: Salesforce Marketing Cloud
+  link: http://www.salesforce.com/marketing-cloud/overview/
+  image: icon-salesforce-livecertified
+
+- name: Silverpop
+  link: http://www.silverpop.com/
+  image: icon-silverpop-livecertified
+
+- name: Stirista
+  link: http://www.stirista.com/
+  image: icon-stirista-livecertified
+
+- name: Subscriber Mail
+  link: http://www.subscribermail.com/
+  image: icon-subscribermail-livecertified
+
+- name: Whatcounts
+  link: http://www.whatcounts.com/
+  image: icon-whatcounts-livecertified
+
+- name: Yesmail
+  link: http://www.yesmail.com/
+  image: icon-yesmail-livecertified

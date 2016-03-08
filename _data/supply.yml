@@ -1,0 +1,35 @@
+- name: Centro
+  link: https://www.centro.net/
+  image: icon-centro
+
+- name: DataXu
+  link: https://www.dataxu.com
+  image: icon-dataxu
+
+- name: DemandBase
+  link: https://www.demandbase.com/
+  image: icon-demandbase
+
+- name: DBM
+  link: https://www.doubleclickbygoogle.com/solutions/digital-marketing/bid-manager/
+  image: icon-dbm
+
+- name: Ignition One
+  link: http://www.ignitionone.com/
+  image: icon-ignitionone
+
+- name: MDotM
+  link: http://www.mdotm.com/
+  image: icon-mdotm
+
+- name: Mediamath
+  link: http://www.mediamath.com/
+  image: icon-mediamath
+
+- name: Proclivity
+  link: https://www.proclivitymedia.com/
+  image: icon-proclivity
+
+- name: YellowHammer
+  link: http://www.yhmg.com/
+  image: icon-yellowhammer

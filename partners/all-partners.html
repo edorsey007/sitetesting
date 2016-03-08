@@ -1,0 +1,84 @@
+---
+layout: default
+title: LiveIntent | All Partners
+---
+
+
+<div class="main-container">
+  <section class="pt96 pb96 image-bg">
+    <div class="background-image-holder">
+        <img alt="Background" class="background-image img-responsive" src="/img/partners/partners-hero.jpg"/>
+        <div class="container">
+          <div class="row">
+              <div class="col-sm-12 col-sm-7 col-sm-offset-5 mb-xs-8 mt64">
+                  <h1 class="mb8 large orange">Our Partners</h1>
+              </div>
+          </div><!--end of row-->
+      </div><!--end of container-->
+    </div>
+  </section>
+  <section class="bg-white">
+    <div class="container">
+    <div class="row">
+        <h3 class="mb32 text-center orange">ESP Partners</h3>
+      <div class="col-sm-12">
+        <ul class="list-inline text-center">
+        {% for esp in site.data.esp %}
+            <li class="mb32">
+              <a href="{{ esp.link }}"><div class="{{ esp.image }}"></div></a>
+            </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+    </div><!--end of container-->
+  </section>
+  <section class="bg-white">
+    <div class="container">
+    <div class="row">
+        <h3 class="mb32 text-center orange">Supply & Demand</h3>
+      <div class="col-sm-12">
+        <ul class="list-inline text-center">
+        {% for supply in site.data.supply %}
+            <li class="mb32">
+              <a href="{{ supply.link }}"><div class="{{ supply.image }}"></div></a>
+            </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+    </div><!--end of container-->
+  </section>
+  <section class="bg-white">
+    <div class="container">
+    <div class="row">
+        <h3 class="mb32 text-center orange">Attribution Partners</h3>
+      <div class="col-sm-12">
+        <ul class="list-inline text-center">
+        {% for attribution in site.data.attribution %}
+            <li class="mb32">
+              <a href="{{ attribution.link }}"><div class="{{ attribution.image }}"></div></a>
+            </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+    </div><!--end of container-->
+  </section>
+  <section class="bg-white">
+    <div class="container">
+    <div class="row">
+        <h3 class="mb32 text-center orange">Data Partners</h3>
+      <div class="col-sm-12">
+        <ul class="list-inline text-center">
+        {% for data in site.data.data %}
+            <li class="mb32">
+              <a href="{{ data.link }}"><div class="{{ data.image }}"></div></a>
+            </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+    </div><!--end of container-->
+  </section>
+</div>

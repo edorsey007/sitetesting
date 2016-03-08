@@ -1,0 +1,35 @@
+- name: ALC
+  link: http://www.alc.com/
+  image: icon-alc
+
+- name: Dataline
+  link: http://datalinedata.com/
+  image: icon-dataline
+
+- name: LiveRamp
+  link: https://liveramp.com/
+  image: icon-liveramp
+
+- name: Lotame
+  link: http://www.lotame.com/
+  image: icon-lotame
+
+- name: NetWise 
+  link: http://www.netwisedata.com/
+  image: icon-netwise
+
+- name: Nielson
+  link: http://www.nielsen.com/us/en.html
+  image: icon-nielson
+
+- name: V12
+  link: http://www.v12groupinc.com/
+  image: icon-v12
+
+- name: Towerdata
+  link: http://www.towerdata.com/
+  image: icon-towerdata
+
+- name: webbula
+  link: https://webbula.com/
+  image: icon-webbula

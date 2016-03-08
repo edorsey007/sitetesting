@@ -158,55 +158,7 @@ $(document).ready(function() {
     mr_navOuterHeight = $('body .navbar nav:first').outerHeight();
     window.addEventListener("scroll", updateNav, false);
 
-    // Menu dropdown positioning
-
-    // $('.menu > li > ul').each(function() {
-    //     var menu = $(this).offset();
-    //     var farRight = menu.left + $(this).outerWidth(true);
-    //     if (farRight > $(window).width() && !$(this).hasClass('mega-menu')) {
-    //         $(this).addClass('make-right');
-    //     } else if (farRight > $(window).width() && $(this).hasClass('mega-menu')) {
-    //         var isOnScreen = $(window).width() - menu.left;
-    //         var difference = $(this).outerWidth(true) - isOnScreen;
-    //         $(this).css('margin-left', -(difference));
-    //     }
-    // });
-
-    //Mobile Menu
-    //Sub Nav 
-
-    // $('.mobile-toggle').click(function() {
-    //     $('.nav-bar').toggleClass('nav-open');
-    //     $(this).toggleClass('active');
-    // });
-
-    // $('.menu li').click(function(e) {
-    //     if (!e) e = window.event;
-    //     e.stopPropagation();
-    //     if ($(this).find('ul').length) {
-    //         $(this).toggleClass('toggle-sub');
-    //     } else {
-    //         $(this).parents('.toggle-sub').removeClass('toggle-sub');
-    //     }
-    // });
-
-    // $('.module.widget-handle').click(function() {
-    //     $(this).toggleClass('toggle-widget-handle');
-    // });
-
-    // Global Nav Overlay
-    // $(document).ready(function(){
-    //     $(".main-toggle").click(function(){
-    //         $(".mobile-overlay").fadeToggle(200);
-    //        $(this).toggleClass('btn-open').toggleClass('btn-close');
-    //     });
-    // });
-
-    // $('.mobile-overlay').on('click', function(){
-    //     $(".mobile-overlay").fadeToggle(200);   
-    //     $(".main-toggle").toggleClass('btn-open').toggleClass('btn-close');
-    //     open = false;
-    // });
+   
 
 $(document).ready(function(){
     $(".dropdown").hover(            
@@ -228,17 +180,7 @@ $(document).ready(function () {
     $(".mid-menu").toggleClass("mid-animate");
     $(".bottom-menu").toggleClass("bottom-animate");
   });
-
-  // $('.mobile-overlay').on('click', function(){
-  //       $(".mobilenav").fadeToggle(200);
-  //       $(".top-menu").toggleClass("top-animate");
-  //       $(".mid-menu").toggleClass("mid-animate");
-  //       $(".bottom-menu").toggleClass("bottom-animate");   
-  //       open = false;
-  //   });
 });
-
-
 
   $('.foundry_modal[data-time-delay]').each(function(){
     var modal = $(this);

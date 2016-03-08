@@ -155,8 +155,9 @@ hr.short-thick {
 }
 
 .show-box{
-  border:1px solid #59606E;
-  padding:5px;
+  border:1px solid #C6C6CA;
+  padding:10px 5px 0px 5px;
+  height: 135px;
   text-align:center;
 }
 
@@ -329,7 +330,7 @@ h4,
 h5,
 h6 {
   font-weight: 300;
-  color: #292929;
+  color: #59606E;
 }
 
 
@@ -354,7 +355,7 @@ h2 {
   line-height: 48px;
 }
 h3 {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 40px;
 }
 h4 {
@@ -580,10 +581,6 @@ blockquote .author {
   background: #FAFAFA;
 }
 
-/*.bg-gray a{
-  color:#fff;
-}*/
-
 .gray-overlay{
   background-color:black;
   opacity: 0.6;
@@ -592,6 +589,15 @@ blockquote .author {
 .bg-picton-blue{
   background:#22ACE3;
   color: #fff;
+}
+
+.bg-picton-blue >h5{
+  color:#fff !important;
+  font-size:22px !important;
+}
+
+.bg-picton-blue >p{
+  color:#fff !important;
 }
 
 .bg-fun-blue{
@@ -609,6 +615,25 @@ blockquote .author {
   color: #fff;
 }
 
+.bg-orange >h5{
+  color:#fff !important;
+  font-size:20px !important;
+}
+
+.bg-orange >p{
+  color:#fff !important;
+}
+
+.bg-green{
+  background:#45730F;
+  color:#fff;
+}
+
+.bg-green >h5{
+  color:#fff !important;
+  font-size:22px !important;
+}
+
 .color-body {
   color: #666;
 }
@@ -619,21 +644,33 @@ blockquote .author {
   color: #e31d3b !important;
 }
 .color-white {
-  color: #fff;
+  color: #fff !important;
 }
 .color-fun-blue{
-  color:#235FAC;
+  color:#235FAC !important;
 }
 .color-picton-blue{
-  color:#22ACE3;
+  color:#22ACE3 !important;
+}
+
+.color-violet{
+  color:#BA358A !important;
+}
+
+.color-shuttle-gray{
+  color:#59606E !important;
 }
 
 .color-conifer{
-  color:#C1D84F;
+  color:#C1D84F !important;
+}
+
+.color-green{
+  color:#45730F !important;
 }
 
 .orange{
-  color:#F68F20;
+  color:#F68F20 !important;
 }
 /*!---------- 5. SECTIONS ----------*/
 
@@ -1056,6 +1093,10 @@ footer.bg-dark li,
   min-width: 0;
 }
 
+.btn-nav{
+  border:1px solid #fff;
+}
+
 .btn-transparent{
   background:transparent;
   color: #fff;
@@ -1386,8 +1427,12 @@ body.btn-rounded .btn {
   }
 
   .nav-list > .second-list { 
-    padding: 10px 10px 15px !important;
+    padding: 5px 10px 5px !important;
     width:90% !important; 
+  }
+
+  .nav-extra-padding-top{
+    padding-top:10px !important;
   }
    /* .nav-list > li > a > span {
     display: block;
@@ -1409,7 +1454,7 @@ body.btn-rounded .btn {
   height: 25px;
   line-height: 25px;
   overflow: hidden;
-  background:#235FAC;
+  background:#4A90E2;
   padding-left: 15px;
   padding-right: 15px;
 
@@ -1426,7 +1471,7 @@ body.btn-rounded .btn {
   /*background: url('/img/nav/nav-bg.png');
   background-position: -10px;
   background-size:cover;*/
-  background-color:#002690;
+  background-color:#235FAC;
   margin-bottom:0px !important;
   border-radius:0 !important;
 }
@@ -1466,7 +1511,7 @@ body.btn-rounded .btn {
 }
 
 .nav-list > .second-list { 
-  padding: 10px 10px 15px;
+  padding: 5px 10px 5px;
   width:23%; 
 }
 
@@ -1488,6 +1533,25 @@ body.btn-rounded .btn {
   color:#F68F20;
   border:2px solid #F68F20;
 }
+.nav-list > li > a > span.partner:hover{
+  display: block;
+  background: #fff;
+  color:#BA358A;
+  border:2px solid #BA358A;
+}
+
+ .nav-list > li > a > span.advertiser:hover >.mega-dropdown-menu {
+  opacity:1,0 !important;
+}
+.nav-list > li > a > span.publisher:hover > .mega-dropdown-menu {
+  opacity:1.0 !important;
+}
+.nav-list > li > a > span.marketer:hover >.mega-dropdown-menu{
+  opacity:1.0 !important;
+}
+.nav-list > li > a > span.partner:hover .mega-dropdown-menu{
+  opacity:1.0 !important;
+}
 
 .dropdown-menu>li>a:hover,
 .dropdown-menu>li>a:focus{
@@ -1499,7 +1563,7 @@ body.btn-rounded .btn {
   font-weight:700;
   font-size:1.8rem;
   display: block;
-  padding: 30px;
+  padding: 19px;
   background: transparent;
   color:#fff;
   border:2px solid #fff;
@@ -1517,7 +1581,7 @@ body.btn-rounded .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus{
-  background-color:#002690 !important;
+  background-color:#235FAC!important;
 }
 
 .nav > li > a{
@@ -1525,7 +1589,7 @@ body.btn-rounded .btn {
 }
 
 .dropdown-menu{
-  opacity:0.9 !important;
+  opacity:0.95;
   background: #235FAC !important;
   border:0px !important;
   border-radius:0px !important;
@@ -2673,6 +2737,20 @@ form iframe.mail-list-form {
 .feature p:last-child {
   margin-bottom: 0;
 }
+
+.image-bg .feature.boxed2 {
+  background: #BA358A;
+  opacity:0.95;
+  padding: 32px;
+}
+
+.boxed2 > p,
+.boxed2 > h3,
+.boxed2 > h5 {
+  color:#fff !important;
+}
+
+
 @media all and (max-width: 767px) {
   .feature.boxed,
   .feature.bordered {
