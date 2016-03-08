@@ -488,7 +488,7 @@ $(window).load(function() {
     });
     $('.logo-carousel').flexslider({
         minItems: 1,
-        maxItems: 4,
+        maxItems: 8,
         move: 1,
         itemWidth: 200,
         itemMargin: 0,
