@@ -18,12 +18,13 @@ title: LiveIntent | Press & Events
 				   	<div class="press-box">
 						<a href="{{ press.link }}"><h5>{{ press.title }}</h5></a>
 						<h6>{{ press.publication }}</h6>
+						<h6>{{ press.author }}</h6>
 						<h6>{{ press.date }}</h6>
 					</div>
 				   </li>
 				   {% endfor %}
 				</ul>
-				<a class="btn btn-sm btn-orange mb64" href="#">Full List</a>	
+				<a class="btn btn-sm btn-orange mb32" href="#">Full List</a>	
 			  </div><!--end of media wrapper-->
 			  <div class="press-wrapper">
 				<h3 class="mb32">LiveIntent in the Press</h3>
@@ -38,7 +39,7 @@ title: LiveIntent | Press & Events
 				   </li>
 				   {% endfor %}
 				</ul>
-				<a class="btn btn-sm btn-orange" href="#">Full List</a>	
+				<a class="btn btn-sm btn-orange mb32" href="#">Full List</a>	
 			  </div><!--end of media wrapper-->
 			</div><!--end of media/press links-->
 			<div class="col-sm-5 col-md-offset-1 col-md-5">
@@ -54,10 +55,10 @@ title: LiveIntent | Press & Events
 	                    <h4 class="mb16">Upcoming Events</h4>
 	                    {% for events in site.data.events %}
 	                    <ul>
-		                    <li>
+		                    <li class="mb24">
+		                    	<a href="{{ events.link }}"><h5 class="mb8 orange">{{ events.title }}</h5></a>
 			                    <h5>{{ events.date }}</h5>
 			                    <h5>{{ events.location }}</h5>
-			                    <h5 class="mb24">{{ events.title }}</h5>
 		                    </li>
 	                    </ul>
 	                    {% endfor %}

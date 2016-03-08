@@ -580,9 +580,9 @@ blockquote .author {
   background: #FAFAFA;
 }
 
-.bg-gray a{
-  color:#F68F20;
-}
+/*.bg-gray a{
+  color:#fff;
+}*/
 
 .gray-overlay{
   background-color:black;
@@ -1172,7 +1172,7 @@ body.btn-rounded .btn {
 
 .icon {
   z-index: 999;
-  position: fixed;
+  position: absolute;
   display: block;
   padding: 9px;
   height: 32px;

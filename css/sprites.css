@@ -9,16 +9,15 @@ Icon classes can be used entirely standalone. They are named after their origina
 <img class="icon-home" />
 ```
 */
-
 .icon-Ari_Jacoby {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -620px -560px;
+  background-position: -465px -560px;
   width: 155px;
   height: 155px;
 }
 .icon-Ben_Lerer {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -465px -560px;
+  background-position: -810px 0px;
   width: 155px;
   height: 155px;
 }
@@ -30,7 +29,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-Brian_OKelley {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: 0px -250px;
+  background-position: -620px -560px;
   width: 155px;
   height: 155px;
 }
@@ -78,13 +77,13 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-Josh_Baer {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -810px 0px;
+  background-position: 0px -250px;
   width: 155px;
   height: 155px;
 }
 .icon-Liron-Gitig {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -810px -455px;
+  background-position: -965px -600px;
   width: 150px;
   height: 150px;
 }
@@ -124,147 +123,483 @@ Icon classes can be used entirely standalone. They are named after their origina
   width: 155px;
   height: 155px;
 }
+.icon-acxiom-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -300px -1015px;
+  width: 150px;
+  height: 150px;
+}
+.icon-adestra-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -810px -155px;
+  width: 150px;
+  height: 150px;
+}
+.icon-adjust {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -810px -305px;
+  width: 150px;
+  height: 150px;
+}
+.icon-alc {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -810px -455px;
+  width: 150px;
+  height: 150px;
+}
 .icon-ali-swerdlow {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: 0px -715px;
   width: 150px;
   height: 150px;
 }
-.icon-audrey-maclsaac {
-  background-image: url(../img/sprites/spritesheet.png);
-  background-position: -810px -155px;
-  width: 150px;
-  height: 150px;
-}
-.icon-boris-mouzykantskii {
-  background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1115px -150px;
-  width: 150px;
-  height: 150px;
-}
-.icon-careers-dash {
-  background-image: url(../img/sprites/spritesheet.png);
-  background-position: -250px 0px;
-  width: 250px;
-  height: 250px;
-}
-.icon-careers-tovah {
-  background-image: url(../img/sprites/spritesheet.png);
-  background-position: 0px 0px;
-  width: 250px;
-  height: 250px;
-}
-.icon-carsten-hydahl {
+.icon-appslfyer {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -150px -715px;
   width: 150px;
   height: 150px;
 }
-.icon-dave-hendricks {
+.icon-audrey-maclsaac {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -300px -715px;
   width: 150px;
   height: 150px;
 }
-.icon-eric-raab {
+.icon-bluehornet-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -450px -715px;
   width: 150px;
   height: 150px;
 }
-.icon-fernando-schwartz {
+.icon-boomtrain-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -600px -715px;
   width: 150px;
   height: 150px;
 }
-.icon-gary-deutsch {
+.icon-boris-mouzykantskii {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -750px -715px;
   width: 150px;
   height: 150px;
 }
-.icon-jason-kelly {
+.icon-bronto-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -965px 0px;
   width: 150px;
   height: 150px;
 }
-.icon-jason-oates {
+.icon-campaigner-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -965px -150px;
   width: 150px;
   height: 150px;
 }
-.icon-john-engler {
+.icon-campaignmonitor-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -965px -300px;
   width: 150px;
   height: 150px;
 }
-.icon-jon-beck {
+.icon-careers-dash {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -965px -450px;
-  width: 150px;
-  height: 150px;
+  background-position: 0px 0px;
+  width: 250px;
+  height: 250px;
 }
-.icon-joseph-dressler {
+.icon-careers-tovah {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -965px -600px;
-  width: 150px;
-  height: 150px;
+  background-position: -250px 0px;
+  width: 250px;
+  height: 250px;
 }
-.icon-julia-rieger {
+.icon-carsten-hydahl {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: 0px -865px;
   width: 150px;
   height: 150px;
 }
-.icon-kamuti-kiteme {
+.icon-centro {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -150px -865px;
   width: 150px;
   height: 150px;
 }
-.icon-karla-partilla {
+.icon-communicator-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -300px -865px;
   width: 150px;
   height: 150px;
 }
-.icon-kerel-cooper {
+.icon-cordial-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -450px -865px;
   width: 150px;
   height: 150px;
 }
-.icon-kyle-brown {
+.icon-dataline {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -600px -865px;
   width: 150px;
   height: 150px;
 }
-.icon-matt-keiser {
+.icon-dataxu {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -750px -865px;
   width: 150px;
   height: 150px;
 }
-.icon-shiven-ramji {
+.icon-dave-hendricks {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -900px -865px;
   width: 150px;
   height: 150px;
 }
-.icon-suneet-bhatt {
+.icon-dbm {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -1115px 0px;
   width: 150px;
   height: 150px;
 }
+.icon-demandbase {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1115px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-emarsys-livecertfied {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1115px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-epsilon-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1115px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-eric-raab {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1115px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-experian-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1115px -750px;
+  width: 150px;
+  height: 150px;
+}
+.icon-expertsender-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1015px;
+  width: 150px;
+  height: 150px;
+}
+.icon-fernando-schwartz {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -150px -1015px;
+  width: 150px;
+  height: 150px;
+}
+.icon-gary-deutsch {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1465px;
+  width: 150px;
+  height: 150px;
+}
+.icon-getresponse-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -450px -1015px;
+  width: 150px;
+  height: 150px;
+}
+.icon-icontact-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -600px -1015px;
+  width: 150px;
+  height: 150px;
+}
+.icon-ignitionone {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -750px -1015px;
+  width: 150px;
+  height: 150px;
+}
+.icon-jason-kelly {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -900px -1015px;
+  width: 150px;
+  height: 150px;
+}
+.icon-jason-oates {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1050px -1015px;
+  width: 150px;
+  height: 150px;
+}
+.icon-john-engler {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1265px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-jon-beck {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1265px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-joseph-dressler {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1265px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-julia-rieger {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1265px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-kamuti-kitemi {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1265px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-karla-partilla {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1265px -750px;
+  width: 150px;
+  height: 150px;
+}
+.icon-kerel-cooper {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1265px -900px;
+  width: 150px;
+  height: 150px;
+}
+.icon-kochava {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1165px;
+  width: 150px;
+  height: 150px;
+}
+.icon-kyle-brown {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -150px -1165px;
+  width: 150px;
+  height: 150px;
+}
+.icon-listrak-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -300px -1165px;
+  width: 150px;
+  height: 150px;
+}
+.icon-liveramp {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -450px -1165px;
+  width: 150px;
+  height: 150px;
+}
+.icon-lotame {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -600px -1165px;
+  width: 150px;
+  height: 150px;
+}
+.icon-mailchimp-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -750px -1165px;
+  width: 150px;
+  height: 150px;
+}
+.icon-mailup-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -900px -1165px;
+  width: 150px;
+  height: 150px;
+}
+.icon-maropost-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1050px -1165px;
+  width: 150px;
+  height: 150px;
+}
+.icon-matt-keiser {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1200px -1165px;
+  width: 150px;
+  height: 150px;
+}
+.icon-mdotm {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1415px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-mediamath {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1415px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-messagegears-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1415px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-myemma-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1415px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-netwise {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1415px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-newsme-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1415px -750px;
+  width: 150px;
+  height: 150px;
+}
+.icon-nielson {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1415px -900px;
+  width: 150px;
+  height: 150px;
+}
+.icon-ongage {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1415px -1050px;
+  width: 150px;
+  height: 150px;
+}
+.icon-postup-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1315px;
+  width: 150px;
+  height: 150px;
+}
+.icon-predict-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -150px -1315px;
+  width: 150px;
+  height: 150px;
+}
+.icon-proclivity {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -300px -1315px;
+  width: 150px;
+  height: 150px;
+}
+.icon-pure360-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -450px -1315px;
+  width: 150px;
+  height: 150px;
+}
+.icon-rocketfuel {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -600px -1315px;
+  width: 150px;
+  height: 150px;
+}
+.icon-sailthru-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -750px -1315px;
+  width: 150px;
+  height: 150px;
+}
+.icon-salesforce-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -900px -1315px;
+  width: 150px;
+  height: 150px;
+}
+.icon-shiven-ramji {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1050px -1315px;
+  width: 150px;
+  height: 150px;
+}
+.icon-silverpop-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1200px -1315px;
+  width: 150px;
+  height: 150px;
+}
+.icon-stirista-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1350px -1315px;
+  width: 150px;
+  height: 150px;
+}
+.icon-subscribermail-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1565px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-suneet-bhatt {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1565px -150px;
+  width: 150px;
+  height: 150px;
+}
 .icon-thomas-jenson {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -810px -305px;
+  background-position: -1565px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-towerdata {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1565px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-tune {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1565px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-v12 {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1565px -750px;
+  width: 150px;
+  height: 150px;
+}
+.icon-webbula {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1565px -900px;
+  width: 150px;
+  height: 150px;
+}
+.icon-whatcounts-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1565px -1050px;
+  width: 150px;
+  height: 150px;
+}
+.icon-yellowhammer {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1565px -1200px;
+  width: 150px;
+  height: 150px;
+}
+.icon-yesmail-livecertified {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -965px -450px;
   width: 150px;
   height: 150px;
 }
