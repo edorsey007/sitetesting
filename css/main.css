@@ -1321,7 +1321,7 @@ body.btn-rounded .btn {
   right: 0px;
   height:100%;
   width:100%;
-  background:#333;
+  background:#235FAC;
   overflow:auto;
   z-index:99;
 }
@@ -1558,6 +1558,27 @@ body.btn-rounded .btn {
   background: #fff;
   color:#BA358A;
   border:2px solid #BA358A;
+}
+
+.advertisers-m{
+  background:#fff !important;
+  color:#22ACE3 !important;
+  border:2px solid #22ACE3 !important;
+}
+.publishers-m{
+  background: #fff !important;
+  color:#7dc143 !important;
+  border:2px solid #7dc143 !important;
+}
+.marketers-m{
+  background: #fff !important;
+  color:#F68F20 !important;
+  border:2px solid #F68F20 !important;
+}
+.partners-m{
+  background: #fff !important;
+  color:#BA358A !important;
+  border:2px solid #BA358A !important;
 }
 
  .nav-list > li > a > span.advertiser:hover >.mega-dropdown-menu {
@@ -5118,8 +5139,30 @@ section.image-zoom:hover img {
 }
 /*!---------- 36. FOOTERS ----------*/
 
-.vertical-line{
+.city > li {
+  font-size:18px;
+}
+
+.footer-left{
+  padding-left:16px;
+}
+
+.p-footer{
+  padding:10px 0px 10px 0px;
+}
+
+.border-footer{
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+}
+
+.vertical-line-right{
   border-right:1px solid white;
+}
+
+.vertical-line-right2{
+  border-right:1px solid white;
+  margin-top:-26px;
 }
 footer.bg-dark a {
   color: #fff;
@@ -5364,6 +5407,9 @@ footer span{
 .p24 {
   padding: 24px;
 }
+.p18 {
+  padding: 18px;
+}
 .p10{
   padding: 10px;
 }
@@ -5420,6 +5466,9 @@ footer span{
 }
 .pt120 {
   padding-top: 120px;
+}
+.pt140 {
+  padding-top: 140px;
 }
 .pt160 {
   padding-top: 160px;
