@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LiveIntent | History
+title: LiveIntent | Our Story
 ---
 
 <div class="main-container">
@@ -46,41 +46,23 @@ title: LiveIntent | History
 <section class="pt32 pb32 bg-picton-blue">
 	<div class="container">
 		<div class="row">
-		    <h3 class="mb32 text-center">Our Leadership</h3>
-			<div class="col-sm-12">
-			  <ul class="list-inline text-center">
+		    <h3 class="mb32 text-center orange">Our Leadership</h3>
 				{% for execs in site.data.execs %}
-						<li class="mb32">
-							<div class="sprite {{ execs.headshot }}"></div>
-							<h5 class="pt8">{{ execs.name }}</h5>
-							<h6>{{ execs.title }}</h6>
-							<a href="https://www.linkedin.com/in/{{ execs.linkedin }}">
-								<i class="icon-xs ti-linkedin"></i>
-							</a>
-						</li>
+				<div class="col-xs-12 col-sm-3 col-md-3 mb32 text-center">
+					<div class="sprite {{ execs.headshot }} img-center"></div>
+					<h5 class="pt8 text-center">{{ execs.name }}</h5>
+					<h6 class="text-center">{{ execs.title }}</h6>
+					<div class="linkedin-team"><a class="text-center" href="https://www.linkedin.com/in/{{ execs.linkedin }}">
+					<i class="icon-xs ti-linkedin text-center"></i>
+					</a></div>
+				</div>
 				{% endfor %}
-			  </ul>
-			  <a class="btn btn-lg btn-transparent mt16 pull-right" href="/about/team">More of the squad</a>
-			</div>
 		</div>
+		<a class="btn btn-lg btn-transparent mt16 pull-right" href="/about/team">More of the squad</a>
 	</div>
 </section>
-<section class="pt32 pb32 bg-fun-blue">
-	<div class="container">
-		<div class="row">
-			<h3 class="text-center color-white">Backed by the best in the business</h2>
-			<div class="col-xs-4 col-md-12 text-center">
-				<a href="#"><img class="vc-logo" src="/img/logos/vc/battery-logo.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/logos/vc/bullpen_logo.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/logos/vc/firstroundcapital-logo.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/logos/vc/ftv-logo.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/logos/vc/grapearbor-logo.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/logos/vc/lererventures.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/logos/vc/shasta_ventures.png"></a>
-			</div>
-	</div>
-</section>
-<section class="bg-dark">
+{% include vc.html %}
+<!-- <section class="bg-dark">
 	<div class="container">
 	    <div class="row">
 	        <div class="col-md-10 col-md-offset-1 text-center">
@@ -90,9 +72,9 @@ title: LiveIntent | History
 	                </div>
 	            </div>
 	        </div>
-	    </div><!--end of row-->
-	</div> <!--end of container-->
-</section>
+	    </div>
+	</div>
+</section> -->
 <section class="pt0 pb0 bg-primary">
 	<div class="instafeed grid-gallery gapless" data-user-name="liveintent">
 		<ul class=""></ul>

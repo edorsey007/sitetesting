@@ -9,19 +9,16 @@ title: LiveIntent | Team
 	  <div class="container">
 		<div class="row">
 		    <h3 class="mb32 text-center orange">Our Leadership</h3>
-			<div class="col-sm-12">
-			  <ul class="list-inline text-center">
 				{% for team in site.data.team %}
-						<li class="mb32">
-							<div class="sprite {{ team.headshot }}"></div>
-							<h5 class="pt8">{{ team.name }}</h5>
-							<h6>{{ team.title }}</h6>
-							<a href="https://www.linkedin.com/in/{{ team.linkedin }}">
-								<i class="icon-xs ti-linkedin"></i>
-							</a>
-						</li>
+				<div class="col-xs-12 col-sm-6 col-md-2 mb32">
+					<div class="sprite {{ team.headshot }} img-center"></div>
+					<h5 class="pt8 text-center">{{ team.name }}</h5>
+					<h6 class="text-center">{{ team.title }}</h6>
+					<div class="linkedin-team"><a class="text-center" href="https://www.linkedin.com/in/{{ team.linkedin }}">
+					<i class="icon-xs ti-linkedin text-center"></i>
+					</a></div>
+				</div>
 				{% endfor %}
-			  </ul>
 			</div>
 		</div>
 	  </div><!--end of container-->
@@ -31,16 +28,13 @@ title: LiveIntent | Team
 	  <div class="container">
 		<div class="row">
 		    <h3 class="mb32 text-center orange">Our Advisors & Board Members</h3>
-			<div class="col-sm-4 col-md-12">
-			  <ul class="list-inline text-center">
 				{% for investors in site.data.investors %}
-						<li class="mb32">
-							<div class="sprite {{ investors.headshot }}"></div>
-							<h5 class="pt8">{{ investors.name }}</h5>
-							<h5>{{ investors.title }}</h5>
-						</li>
+					<div class="col-xs-12 col-sm-6 col-md-2 mb32">
+							<div class="sprite {{ investors.headshot }} img-center"></div>
+							<h5 class="pt8 text-center">{{ investors.name }}</h5>
+							<h5 class="text-center">{{ investors.title }}</h5>
+					</div>
 				{% endfor %}
-			  </ul>
 			</div>
 		</div>
 	  </div>

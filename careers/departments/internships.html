@@ -1,0 +1,54 @@
+---
+layout: default
+title: LiveIntent | Interships
+---
+
+<div class="main-container">
+ <section class="pt48 pb48 image-bg overlay">
+    <div class="background-image-holder">
+        <img alt="Background" class="background-image img-responsive" src="/img/careers/departments-bg.jpg" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <a href="/careers/departments"><i class="ti-angle-left department-arrow"></i><h4 class="department-link pull-left">All Departents</h4></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-md-offset-2 mb-xs-8 text-center">
+                <h1 class="mb8 semi-bold">Internships</h1>
+                <h4 class="text-center">We are looking for energetic interns to fill various roles this summer! You MUST be driven and passionate about solving big issues to get this job.</h4>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+<section>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+              <h3 class="text-left">Open Positions</h3>
+              <thead>
+                <tr>
+                  <th>Position</th>
+                  <th>Location</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for interns in site.data.interns %}
+                <tr>
+                  <th><a href="{{ interns.link }}">{{ interns.position }}</a></th>
+                  <th>{{ interns.location }}</th>
+                </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+          </div><!--end of .table-responsive-->
+        </div>
+      </div>
+    </div>
+</section>
+</div> <!--end of main container-->

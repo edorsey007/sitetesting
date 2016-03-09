@@ -1,15 +1,19 @@
 <section class="pt32 pb32 bg-fun-blue">
 	<div class="container">
 		<div class="row">
-			<h3 class="text-center color-white">Backed by the best in the business</h2>
-			<div class="col-xs-4 col-md-12 text-center">
-				<a href="#"><img class="vc-logo" src="/img/logos/vc/battery-logo.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/logos/vc/bullpen_logo.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/logos/vc/firstroundcapital-logo.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/logos/vc/ftv-logo.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/logos/vc/grapearbor-logo.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/logos/vc/lererventures.png"></a>
-				<a href="#"><img class="vc-logo" src="/img/logos/vc/shasta_ventures.png"></a>
-			</div>
+		    <h3 class="mb32 text-center orange">Backed by the Best in the business</h3>
+				{% for vc in site.data.vc %}
+				<div class="col-xs-6 col-md-3 text-center">
+					<a href="{{ vc.link }}"><div class="sprite {{ vc.image }} img-center"></div></a>
+				</div>
+				{% endfor %}
+		</div>
+		<div class="row">
+				{% for vc2 in site.data.vc2 %}
+				<div class="col-xs-6 col-md-4 text-center">
+					<a href="{{ vc2.link }}"><div class="sprite {{ vc2.image }} img-center"></div></a>
+				</div>
+				{% endfor %}
+		</div>
 	</div>
 </section>
