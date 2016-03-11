@@ -3,15 +3,50 @@
   title: Chief Executive Officer
   linkedin: mrkeiser
 
-- name: Jon Beck
-  headshot: icon-jon-beck
-  title: EVP Platform
-  linkedin: beckjon
+- name: Jason Kelly
+  headshot: icon-jason-kelly
+  title: President
+  linkedin: jlkelly
+
+- name: Shiven Ramji
+  headshot: icon-shiven-ramji
+  title: Chief Product Officer
+  linkedin: shivenramji
+
+- name: Gary Deutsch
+  headshot: icon-gary-deutsch
+  title: Chief Financial Officer
+  linkedin: gary-deutsch-140194
+
+- name: Jason Oates
+  headshot: icon-jason-oates
+  title: Chief Business Officer
+  linkedin: jasonoates
 
 - name: Suneet Bhatt
   headshot: icon-suneet-bhatt
   title: Chief Marketing Officer
   linkedin: suneetbhatt
+
+- name: Carsten Hyldahl
+  headshot: icon-carsten-hydahl
+  title: Cheif Technology Officer
+  linkedin: carstenhyldahl
+
+- name: Eric Raab
+  headshot: icon-eric-raab
+  title: EVP Engineering
+  linkedin: ericraab
+
+- name: Jon Beck
+  headshot: icon-jon-beck
+  title: EVP Platform
+  linkedin: beckjon
+
+- name: Dave Hendricks
+  headshot: icon-dave-hendricks
+  title: Manging Director UK
+  linkedin: davehendricks
 
 - name: Kyle Brown
   headshot: icon-kyle-brown
@@ -23,11 +58,6 @@
   title: VP Platform Development
   linkedin: kerelcooper
 
-- name: Gary Deutsch
-  headshot: icon-gary-deutsch
-  title: Chief Financial Officer
-  linkedin: gary-deutsch-140194
-
 - name: Joseph Dressler
   headshot: icon-joseph-dressler
   title: VP National Sales
@@ -38,25 +68,10 @@
   title: VP Sales
   linkedin: johnengler
 
-- name: Dave Hendricks
-  headshot: icon-dave-hendricks
-  title: Manging Director UK
-  linkedin: davehendricks
-
-- name: Carsten Hyldahl
-  headshot: icon-carsten-hydahl
-  title: Cheif Technology Officer
-  linkedin: carstenhyldahl
-
 - name: Thomas Jenson
   headshot: icon-suneet-bhatt
   title: SVP Business Development
   linkedin: thomasdaljensen
-
-- name: Jason Kelly
-  headshot: icon-jason-kelly
-  title: President
-  linkedin: jlkelly
 
 - name: Kamuti Kiteme
   headshot: icon-kamuti-kiteme
@@ -72,25 +87,10 @@
   headshot: icon-boris-mouzykantskii
   title: Chief Scientist
 
-- name: Jason Oates
-  headshot: icon-jason-oates
-  title: Chief Business Officer
-  linkedin: jasonoates
-
 - name: Karla Partilla
   headshot: icon-karla-partilla
   title: VP Publisher Development
   linkedin: karla-partilla-971b762
-
-- name: Eric Raab
-  headshot: icon-eric-raab
-  title: EVP Engineering
-  linkedin: ericraab
-
-- name: Shiven Ramji
-  headshot: icon-shiven-ramji
-  title: Chief Product Officer
-  linkedin: shivenramji
 
 - name: Julia Rieger
   headshot: icon-julia-rieger

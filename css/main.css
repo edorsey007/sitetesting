@@ -738,8 +738,8 @@ section{
 
 .home-i{
   font-size:4rem !important;
-  color:#235FAC !important;
-  z-index: 8
+  color:#fff !important;
+  z-index: 8;
 }
 
 .home-a{
@@ -886,17 +886,52 @@ footer.bg-dark li,
 }
 
 .circle-meredith-right{
-  z-index: 5;
-  right:0px;
-  position: absolute;
-  bottom:-60px;
+  z-index: 5 !important;
+  right:0px !important;
+  position: absolute !important;
+  bottom:-60px !important;
 }
 
 .circle-meredith-left{
-  z-index: 5;
-  left:0px;
+  z-index: 5 !important;
+  left:0px !important;
+  position: absolute !important;
+  top:10px !important;
+}
+
+.hero-circle-left{
+  z-index: 5 !important;
+  left:0px !important;
+  position: absolute !important;
+  top:20px; !important;
+}
+
+.hero-circle-right{
+  z-index: 5 !important;
+  right:0px !important;
+  position: absolute !important;
+  bottom:-10px !important;
+}
+
+.img-hero{
   position: absolute;
-  top:10px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #292929;
+  background-size: cover !important;
+  background-position: 50% 10%  !important;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  opacity: 0;
+}
+
+
+.img-hero.fadeIn {
+  opacity: 1;
 }
 
 .overlay-hero:before {
@@ -906,8 +941,20 @@ footer.bg-dark li,
   height: 100%;
   top: 0;
   left: 0;
+  background: #000;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.footer-overlay:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
   background: #fff;
-  opacity: 0.8;
+  opacity: 0.3;
   z-index: 2;
 }
 .overlay-heavy:before {
@@ -1074,6 +1121,81 @@ footer.bg-dark li,
 }
 .circle-container{
   text-align:center;
+}
+
+@media all and (max-width: 480px){
+      .circle:before {
+      border-radius: 50%;
+      /* = 15%, almost gives us viewport width unit (15vw) */
+      width: 100%;
+      padding-bottom: 100%;
+      /* this way we should have 1px gap between circles */
+      margin: 15px .5px;
+      background: #F68F20;
+      content: '';
+      display: inline-block;
+      /* circle to the middle, so that... [1] */
+      vertical-align: middle;
+      
+      /* to use viewport based units we can safely override the old units in this way */
+      padding-bottom: 0vw;
+      width: 25vw;
+      height: 25vw;
+    }
+    .circle p {
+      color:#fff;
+      display: inline-block;
+      font-size: 3em;
+      /* -.5em = white space between p elements... */
+      margin: 0 -.5em 0 -100%;
+      padding: 0;
+      /* ... text can be middle too! [1] */
+      vertical-align: middle;
+      white-space: normal;
+      width: 100%;
+      /* for some reason that I can't figure out right now...
+        viewport units eliminate the white space issue */
+      margin: 0 0 0 -20vw;
+      width: 17vw;
+    }
+    .circle-3:before {
+      border-radius: 50%;
+      /* = 15%, almost gives us viewport width unit (15vw) */
+      width: 100%;
+      padding-bottom: 100%;
+      /* this way we should have 1px gap between circles */
+      margin: 15px .5px;
+      background: #F68F20;
+      content: '';
+      display: inline-block;
+      /* circle to the middle, so that... [1] */
+      vertical-align: middle;
+      
+      /* to use viewport based units we can safely override the old units in this way */
+      padding-bottom: 0vw;
+      width: 20vw;
+      height: 20vw;
+    }
+
+    .circle-3 p {
+      color:#fff;
+      display: inline-block;
+      font-size: 2em;
+      /* -.5em = white space between p elements... */
+      margin: 0 -.5em 0 -100%;
+      padding: 0;
+      /* ... text can be middle too! [1] */
+      vertical-align: middle;
+      white-space: normal;
+      width: 100%;
+      /* for some reason that I can't figure out right now...
+        viewport units eliminate the white space issue */
+      margin: 0 0 0 -19vw;
+      width: 15vw;
+    }
+
+
+
 }
 
 .background-image-holder {

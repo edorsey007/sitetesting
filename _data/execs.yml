@@ -3,37 +3,47 @@
   title: Chief Executive Officer
   linkedin: mrkeiser
 
-- name: Jon Beck
-  headshot: icon-jon-beck
-  title: EVP Platform
-  linkedin: beckjon
+- name: Jason Kelly
+  headshot: icon-jason-kelly
+  title: President
+  linkedin: jlkelly
 
-- name: Suneet Bhatt
-  headshot: icon-suneet-bhatt
-  title: Chief Marketing Officer
-  linkedin: suneetbhatt
+- name: Shiven Ramji
+  headshot: icon-shiven-ramji
+  title: Chief Product Officer
+  linkedin: shivenramji
 
 - name: Gary Deutsch
   headshot: icon-gary-deutsch
   title: Chief Financial Officer
   linkedin: gary-deutsch-140194
 
-- name: Dave Hendricks
-  headshot: icon-dave-hendricks
-  title: Manging Director UK
-  linkedin: davehendricks
+- name: Jason Oates
+  headshot: icon-jason-oates
+  title: Chief Business Officer
+  linkedin: jasonoates
+
+- name: Suneet Bhatt
+  headshot: icon-suneet-bhatt
+  title: Chief Marketing Officer
+  linkedin: suneetbhatt
 
 - name: Carsten Hyldahl
   headshot: icon-carsten-hydahl
   title: Cheif Technology Officer
   linkedin: carstenhyldahl
 
-- name: Jason Kelly
-  headshot: icon-jason-kelly
-  title: President
-  linkedin: jlkelly
+- name: Eric Raab
+  headshot: icon-eric-raab
+  title: EVP Engineering
+  linkedin: ericraab
 
-- name: Jason Oates
-  headshot: icon-jason-oates
-  title: Chief Business Officer
-  linkedin: jasonoates
+- name: Jon Beck
+  headshot: icon-jon-beck
+  title: EVP Platform
+  linkedin: beckjon
+
+- name: Dave Hendricks
+  headshot: icon-dave-hendricks
+  title: Manging Director UK
+  linkedin: davehendricks

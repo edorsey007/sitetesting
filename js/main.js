@@ -34,6 +34,14 @@ $(document).ready(function() {
         $(this).css('background-position', 'initial');
     });
 
+
+    $('.img-hero').each(function() {
+        var imgSrc = $(this).children('img').attr('src');
+        $(this).css('background', 'url("' + imgSrc + '")');
+        $(this).children('img').hide();
+        $(this).css('background-position', 'initial');
+    });
+
     $(function() {
     function backgroundScroll(el, width, speed){        
         el.animate({'background-position' : '-'+width+'px'}, speed, 'linear', function(){
@@ -49,6 +57,12 @@ $(document).ready(function() {
 
     setTimeout(function() {
         $('.background-image-holder').each(function() {
+            $(this).addClass('fadeIn');
+        });
+    }, 200);
+
+        setTimeout(function() {
+        $('.img-hero').each(function() {
             $(this).addClass('fadeIn');
         });
     }, 200);

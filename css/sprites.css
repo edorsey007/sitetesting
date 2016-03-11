@@ -155,7 +155,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-advertiser-icon {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -2105px -517px;
+  background-position: -2105px -666px;
   width: 75px;
   height: 75px;
 }
@@ -167,7 +167,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-ali-swerdlow {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -900px -1320px;
+  background-position: -1050px -1320px;
   width: 150px;
   height: 150px;
 }
@@ -461,13 +461,13 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-health-insurance {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -2030px -300px;
+  background-position: -900px -1320px;
   width: 150px;
   height: 150px;
 }
 .icon-home-decor {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1050px -1320px;
+  background-position: -2030px -300px;
   width: 150px;
   height: 150px;
 }
@@ -641,7 +641,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-marketer-icon {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -2030px -450px;
+  background-position: -2030px -599px;
   width: 100px;
   height: 67px;
 }
@@ -755,7 +755,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-publisher-icon {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -2030px -517px;
+  background-position: -2030px -666px;
   width: 75px;
   height: 75px;
 }
@@ -908,6 +908,12 @@ Icon classes can be used entirely standalone. They are named after their origina
   background-position: -150px -1320px;
   width: 150px;
   height: 150px;
+}
+.icon-yellowstone {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -2030px -450px;
+  width: 150px;
+  height: 149px;
 }
 .icon-yesmail-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
