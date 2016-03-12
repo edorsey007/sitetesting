@@ -160,6 +160,11 @@ hr.short-thick {
   height: 135px;
   text-align:center;
 }
+
+.show-box h5{
+  color:#fff;
+}
+
 .show-box-a{
   border:1px solid #C6C6CA;
   padding:10px 5px 0px 5px;
@@ -866,37 +871,61 @@ footer.bg-dark li,
     .circle-meredith-left{
      display: none !important;
     }
+
+    .la-quinta-hero{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      background: #292929;
+      background-size: cover !important;
+      background-position: 50% 50%  !important;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      opacity: 0;
+    }
 }
+
+/*.home-panel{
+  max-height:340px;
+}*/
 
 .overlay-meredith:before {
   position: absolute;
   content: '';
-  width: 50%;
+  width: 100%;
   height: 100%;
   top: 0;
   right: 0;
   background: #59606E;
-  opacity: 0.5;
+  opacity: 0.7;
   z-index: 2;
 }
 
 .z-overlay{
   z-index: 4;
   padding: 50px;
+  height: 50rem;
 }
 
 .circle-meredith-right{
   z-index: 5 !important;
   right:0px !important;
   position: absolute !important;
-  bottom:-60px !important;
+  top:-10px !important;
+  width:15rem !important;
+  display: block !important;
 }
 
 .circle-meredith-left{
   z-index: 5 !important;
   left:0px !important;
   position: absolute !important;
-  top:10px !important;
+  width:15rem !important;
+  bottom:0px !important;
 }
 
 .hero-circle-left{
@@ -934,6 +963,27 @@ footer.bg-dark li,
   opacity: 1;
 }
 
+.la-quinta-hero{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #292929;
+  background-size: cover !important;
+  background-position: 15% 50%;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  opacity: 0;
+}
+
+
+.la-quinta-hero.fadeIn {
+  opacity: 1;
+}
+
 .overlay-hero:before {
   position: absolute;
   content: '';
@@ -941,8 +991,8 @@ footer.bg-dark li,
   height: 100%;
   top: 0;
   left: 0;
-  background: #000;
-  opacity: 0.5;
+  background: #41454D;
+  opacity: 0.7;
   z-index: 2;
 }
 
@@ -5010,6 +5060,7 @@ section.image-zoom:hover img {
   position: relative;
   z-index: 4;
   margin: 0;
+  color:#fff;
 }
 .image-caption .caption:before {
   content: '' attr(data-caption) '';

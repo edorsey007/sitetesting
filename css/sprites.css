@@ -155,7 +155,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-advertiser-icon {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -2105px -666px;
+  background-position: -2030px -674px;
   width: 75px;
   height: 75px;
 }
@@ -641,9 +641,9 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-marketer-icon {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -2030px -599px;
-  width: 100px;
-  height: 67px;
+  background-position: -2105px -599px;
+  width: 75px;
+  height: 75px;
 }
 .icon-maropost-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
@@ -755,7 +755,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-publisher-icon {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -2030px -666px;
+  background-position: -2030px -599px;
   width: 75px;
   height: 75px;
 }
