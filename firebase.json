@@ -5,5 +5,11 @@
     "firebase.json",
     "**/.*",
     "**/node_modules/**"
-  ]
+  ],
+
+  "redirects": [ {
+    "source" : "/adchoices",
+    "destination" : "/ad-choices",
+    "type" : 301
+  }]
 }
