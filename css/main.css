@@ -887,6 +887,21 @@ footer.bg-dark li,
       -moz-transition: all 0.3s ease;
       opacity: 0;
     }
+    .hero-circle-left{
+      z-index: 5 !important;
+      left:0px !important;
+      position: absolute !important;
+      top:0px !important;
+      width: 75px !important;
+    }
+
+    .hero-circle-right{ 
+      z-index: 5 !important;
+      right:0px !important;
+      position: absolute !important;
+      bottom:-10px !important;
+      width: 75px !important;
+    }
 }
 
 /*.home-panel{
@@ -929,17 +944,17 @@ footer.bg-dark li,
 }
 
 .hero-circle-left{
-  z-index: 5 !important;
+  z-index: 5;
   left:0px !important;
   position: absolute !important;
-  top:20px; !important;
+  top:20px;
 }
 
 .hero-circle-right{
-  z-index: 5 !important;
+  z-index: 5;
   right:0px !important;
   position: absolute !important;
-  bottom:-10px !important;
+  bottom:-10px;
 }
 
 .img-hero{

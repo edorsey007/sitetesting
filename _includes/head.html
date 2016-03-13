@@ -5,12 +5,16 @@
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Graham Dubow: LiveIntent">
-    <meta name="description" content="LiveIntent is a better way to buy and sell ads in email. Learn more about how you can access this exclusive audience through our platform."/>
+    {% if page.description %}
+        <meta name="description" content="{{ page.description }}"/>
+     {% endif %}
     <link rel="canonical" href="https://www.liveintent.com" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="LiveIntent" />
-    <meta property="og:description" content="LiveIntent is a better way to buy and sell ads in email. Learn more about how you can access this exclusive audience through our platform." />
+    {% if page.description %}
+        <meta property="og:description" content="{{ page.description }}" />
+    {% endif %}
     <meta property="og:url" content="https://liveintent.com" />
     <meta property="og:site_name" content="LiveIntent" />
     <meta property="article:publisher" content="https://www.facebook.com/LiveIntent" />
