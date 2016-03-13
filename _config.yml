@@ -2,11 +2,11 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: https://liv2.firebaseapp.com/
+url: https://liveintent.com 
 title: LiveIntent
 email: info@liveintent.com
 author: LiveIntent @ gdubow
-description: > # "LiveIntent is a smarter way to market to people, not pixels.
+description: > # A smarter way to market and advertise in email.
 copyright: 'Copyright &copy; 2016 LiveIntent. All Rights Reserved.'
 
 

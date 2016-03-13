@@ -570,7 +570,7 @@ blockquote .author {
 }
 
 .department-link{
-  position: fixed;
+  position: absolute;
   top:2.5em;
   left:1.5em;
 }
@@ -581,7 +581,7 @@ blockquote .author {
 }
 
 .department-arrow{
-  position:fixed;
+  position:absolute;
   top:5em;
   left:1em;
   color:#fff !important;
