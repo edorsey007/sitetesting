@@ -63,6 +63,12 @@ Icon classes can be used entirely standalone. They are named after their origina
   width: 155px;
   height: 155px;
 }
+.icon-Icon-transparency {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -2030px -799px;
+  width: 100px;
+  height: 100px;
+}
 .icon-Jason_Pressman {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -775px -865px;
@@ -83,7 +89,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-Liron-Gitig {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1280px 0px;
+  background-position: -1280px -300px;
   width: 150px;
   height: 150px;
 }
@@ -125,103 +131,103 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-activecampaign-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1280px -150px;
+  background-position: -150px -1170px;
   width: 150px;
   height: 150px;
 }
 .icon-acxiom-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: 0px -1170px;
+  background-position: -1200px -1170px;
   width: 150px;
   height: 150px;
 }
 .icon-adestra-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1050px -1170px;
+  background-position: -1430px -600px;
   width: 150px;
   height: 150px;
 }
 .icon-adjust {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1430px -450px;
+  background-position: 0px -1320px;
   width: 150px;
   height: 150px;
 }
 .icon-adobe-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1430px -1050px;
+  background-position: -300px -1320px;
   width: 150px;
   height: 150px;
 }
 .icon-advertiser-icon {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -2030px -674px;
+  background-position: -2030px -974px;
   width: 75px;
   height: 75px;
 }
 .icon-alc {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -600px -1320px;
+  background-position: -1200px -1320px;
   width: 150px;
   height: 150px;
 }
 .icon-ali-swerdlow {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1050px -1320px;
+  background-position: -1580px 0px;
   width: 150px;
   height: 150px;
 }
 .icon-american-auto {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1350px -1320px;
+  background-position: -1500px -1470px;
   width: 150px;
   height: 150px;
 }
 .icon-american-coffee {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1050px -1470px;
+  background-position: -1730px -150px;
   width: 150px;
   height: 150px;
 }
 .icon-aop {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1350px -1470px;
+  background-position: -1730px -300px;
   width: 150px;
   height: 150px;
 }
 .icon-apps-flyer {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1500px -1470px;
+  background-position: -150px -1770px;
   width: 150px;
   height: 150px;
 }
 .icon-audrey-maclsaac {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1880px -1350px;
+  background-position: -1050px -1770px;
   width: 150px;
   height: 150px;
 }
 .icon-auto {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -600px -1770px;
+  background-position: -1650px -1770px;
   width: 150px;
   height: 150px;
 }
 .icon-b2b-finance {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1200px -1770px;
+  background-position: -1125px -465px;
   width: 150px;
   height: 150px;
 }
 .icon-b2b-online {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1125px -465px;
+  background-position: -1125px -615px;
   width: 150px;
   height: 150px;
 }
 .icon-b2b-package {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1125px -615px;
+  background-position: -1125px -765px;
   width: 150px;
   height: 150px;
 }
@@ -233,49 +239,49 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-bluehornet-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: 0px -1020px;
+  background-position: -150px -1020px;
   width: 150px;
   height: 150px;
 }
 .icon-bookbub {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -150px -1020px;
+  background-position: -300px -1020px;
   width: 150px;
   height: 150px;
 }
 .icon-boomtrain-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -300px -1020px;
+  background-position: -450px -1020px;
   width: 150px;
   height: 150px;
 }
 .icon-boris-mouzykantskii {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -450px -1020px;
+  background-position: -600px -1020px;
   width: 150px;
   height: 150px;
 }
 .icon-bronto-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -600px -1020px;
+  background-position: -750px -1020px;
   width: 150px;
   height: 150px;
 }
 .icon-bullpen_logo {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -750px -1020px;
+  background-position: -900px -1020px;
   width: 150px;
   height: 150px;
 }
 .icon-campaigner-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -900px -1020px;
+  background-position: -1050px -1020px;
   width: 150px;
   height: 150px;
 }
 .icon-campaignmonitor-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1050px -1020px;
+  background-position: -1280px 0px;
   width: 150px;
   height: 150px;
 }
@@ -293,31 +299,31 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-carsten-hydahl {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1280px -300px;
+  background-position: -1280px -450px;
   width: 150px;
   height: 150px;
 }
 .icon-centro {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1280px -450px;
+  background-position: -1280px -600px;
   width: 150px;
   height: 150px;
 }
 .icon-communicator-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1280px -600px;
+  background-position: -1280px -750px;
   width: 150px;
   height: 150px;
 }
 .icon-cordial-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1280px -750px;
+  background-position: -1280px -900px;
   width: 150px;
   height: 150px;
 }
 .icon-credit-card {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1280px -900px;
+  background-position: 0px -1170px;
   width: 150px;
   height: 150px;
 }
@@ -329,37 +335,37 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-dataline {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -150px -1170px;
+  background-position: -300px -1170px;
   width: 150px;
   height: 150px;
 }
 .icon-dataxu {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -300px -1170px;
+  background-position: -450px -1170px;
   width: 150px;
   height: 150px;
 }
 .icon-dave-hendricks {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -450px -1170px;
+  background-position: -600px -1170px;
   width: 150px;
   height: 150px;
 }
 .icon-dbm {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -600px -1170px;
+  background-position: -750px -1170px;
   width: 150px;
   height: 150px;
 }
 .icon-demandbase {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -750px -1170px;
+  background-position: -900px -1170px;
   width: 150px;
   height: 150px;
 }
 .icon-disney {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -900px -1170px;
+  background-position: -1050px -1170px;
   width: 150px;
   height: 150px;
 }
@@ -371,25 +377,25 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-electronics {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1200px -1170px;
+  background-position: -1430px 0px;
   width: 150px;
   height: 150px;
 }
 .icon-emarsys-livecertfied {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1430px 0px;
+  background-position: -1430px -150px;
   width: 150px;
   height: 150px;
 }
 .icon-epsilon-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1430px -150px;
+  background-position: -1430px -300px;
   width: 150px;
   height: 150px;
 }
 .icon-eric-raab {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1430px -300px;
+  background-position: -1430px -450px;
   width: 150px;
   height: 150px;
 }
@@ -401,19 +407,19 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-experian-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1430px -600px;
+  background-position: -1430px -750px;
   width: 150px;
   height: 150px;
 }
 .icon-expertsender-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1430px -750px;
+  background-position: -1430px -900px;
   width: 150px;
   height: 150px;
 }
 .icon-fernando-schwartz {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1430px -900px;
+  background-position: -1430px -1050px;
   width: 150px;
   height: 150px;
 }
@@ -425,7 +431,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-flightnetwork {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: 0px -1320px;
+  background-position: -150px -1320px;
   width: 150px;
   height: 150px;
 }
@@ -437,13 +443,13 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-gary-deutsch {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -300px -1320px;
+  background-position: -450px -1320px;
   width: 150px;
   height: 150px;
 }
 .icon-getresponse-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -450px -1320px;
+  background-position: -600px -1320px;
   width: 150px;
   height: 150px;
 }
@@ -455,13 +461,13 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-grommet {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -750px -1320px;
+  background-position: -900px -1320px;
   width: 150px;
   height: 150px;
 }
 .icon-health-insurance {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -900px -1320px;
+  background-position: -1050px -1320px;
   width: 150px;
   height: 150px;
 }
@@ -473,7 +479,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-horoscope {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1200px -1320px;
+  background-position: -1350px -1320px;
   width: 150px;
   height: 150px;
 }
@@ -483,99 +489,111 @@ Icon classes can be used entirely standalone. They are named after their origina
   width: 235px;
   height: 230px;
 }
+.icon-icon-evolving {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -2030px -699px;
+  width: 100px;
+  height: 100px;
+}
+.icon-icon-impact {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -2030px -599px;
+  width: 100px;
+  height: 100px;
+}
 .icon-icontact-livecertified {
-  background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1580px 0px;
-  width: 150px;
-  height: 150px;
-}
-.icon-ignitionone {
-  background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1580px -150px;
-  width: 150px;
-  height: 150px;
-}
-.icon-indpt-money {
-  background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1580px -300px;
-  width: 150px;
-  height: 150px;
-}
-.icon-interactiveone {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -1580px -450px;
   width: 150px;
   height: 150px;
 }
-.icon-jason-kelly {
+.icon-ignitionone {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -1580px -600px;
   width: 150px;
   height: 150px;
 }
-.icon-jason-oates {
+.icon-indpt-money {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -1580px -750px;
   width: 150px;
   height: 150px;
 }
-.icon-john-engler {
+.icon-interactiveone {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -1580px -900px;
   width: 150px;
   height: 150px;
 }
-.icon-jon-beck {
+.icon-jason-kelly {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -1580px -1050px;
   width: 150px;
   height: 150px;
 }
-.icon-joseph-dressler {
+.icon-jason-oates {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -1580px -1200px;
   width: 150px;
   height: 150px;
 }
-.icon-julia-rieger {
+.icon-john-engler {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: 0px -1470px;
   width: 150px;
   height: 150px;
 }
-.icon-kamuti-kiteme {
+.icon-jon-beck {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -150px -1470px;
   width: 150px;
   height: 150px;
 }
-.icon-karla-partilla {
+.icon-joseph-dressler {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -300px -1470px;
   width: 150px;
   height: 150px;
 }
-.icon-kerel-cooper {
+.icon-julia-rieger {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -450px -1470px;
   width: 150px;
   height: 150px;
 }
-.icon-kochava {
+.icon-kamuti-kiteme {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -600px -1470px;
   width: 150px;
   height: 150px;
 }
-.icon-kraft {
+.icon-karla-partilla {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -750px -1470px;
   width: 150px;
   height: 150px;
 }
-.icon-kyle-brown {
+.icon-kerel-cooper {
   background-image: url(../img/sprites/spritesheet.png);
   background-position: -900px -1470px;
+  width: 150px;
+  height: 150px;
+}
+.icon-kochava {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1050px -1470px;
+  width: 150px;
+  height: 150px;
+}
+.icon-kraft {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1200px -1470px;
+  width: 150px;
+  height: 150px;
+}
+.icon-kyle-brown {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: -1350px -1470px;
   width: 150px;
   height: 150px;
 }
@@ -587,7 +605,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-listrak-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1200px -1470px;
+  background-position: -1730px 0px;
   width: 150px;
   height: 150px;
 }
@@ -605,187 +623,187 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-liveramp {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1730px 0px;
+  background-position: -1730px -450px;
   width: 150px;
   height: 150px;
 }
 .icon-lotame {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1730px -150px;
+  background-position: -1730px -600px;
   width: 150px;
   height: 150px;
 }
 .icon-luxury-auto {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1730px -300px;
+  background-position: -1730px -750px;
   width: 150px;
   height: 150px;
 }
 .icon-luxury-retail {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1730px -450px;
+  background-position: -1730px -900px;
   width: 150px;
   height: 150px;
 }
 .icon-mailchimp-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1730px -600px;
+  background-position: -1730px -1050px;
   width: 150px;
   height: 150px;
 }
 .icon-mailup-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1730px -750px;
+  background-position: -1730px -1200px;
   width: 150px;
   height: 150px;
 }
 .icon-marketer-icon {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -2105px -599px;
+  background-position: -2105px -899px;
   width: 75px;
   height: 75px;
 }
 .icon-maropost-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1730px -1050px;
+  background-position: 0px -1620px;
   width: 150px;
   height: 150px;
 }
 .icon-matt-keiser {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1730px -1200px;
+  background-position: -150px -1620px;
   width: 150px;
   height: 150px;
 }
 .icon-mdotm {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1730px -1350px;
+  background-position: -300px -1620px;
   width: 150px;
   height: 150px;
 }
 .icon-mediamath {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: 0px -1620px;
+  background-position: -450px -1620px;
   width: 150px;
   height: 150px;
 }
 .icon-messagegears-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -150px -1620px;
+  background-position: -600px -1620px;
   width: 150px;
   height: 150px;
 }
 .icon-myemma-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -300px -1620px;
+  background-position: -750px -1620px;
   width: 150px;
   height: 150px;
 }
 .icon-napco {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -450px -1620px;
+  background-position: -900px -1620px;
   width: 150px;
   height: 150px;
 }
 .icon-netwise {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -600px -1620px;
+  background-position: -1050px -1620px;
   width: 150px;
   height: 150px;
 }
 .icon-newsme-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -750px -1620px;
+  background-position: -1200px -1620px;
   width: 150px;
   height: 150px;
 }
 .icon-nielson {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -900px -1620px;
+  background-position: -1350px -1620px;
   width: 150px;
   height: 150px;
 }
 .icon-nyu-stern {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1050px -1620px;
+  background-position: -1500px -1620px;
   width: 150px;
   height: 150px;
 }
 .icon-ongage {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1200px -1620px;
+  background-position: -1650px -1620px;
   width: 150px;
   height: 150px;
 }
 .icon-patch {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1350px -1620px;
+  background-position: -1880px 0px;
   width: 150px;
   height: 150px;
 }
 .icon-pharma {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1500px -1620px;
+  background-position: -1880px -150px;
   width: 150px;
   height: 150px;
 }
 .icon-postup-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1650px -1620px;
+  background-position: -1880px -300px;
   width: 150px;
   height: 150px;
 }
 .icon-predict-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1880px 0px;
+  background-position: -1880px -450px;
   width: 150px;
   height: 150px;
 }
 .icon-prime-publishing {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1880px -150px;
+  background-position: -1880px -600px;
   width: 150px;
   height: 150px;
 }
 .icon-proclivity {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1880px -300px;
+  background-position: -1880px -750px;
   width: 150px;
   height: 150px;
 }
 .icon-publisher-icon {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -2030px -599px;
+  background-position: -2030px -899px;
   width: 75px;
   height: 75px;
 }
 .icon-pure360-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1880px -600px;
+  background-position: -1880px -1050px;
   width: 150px;
   height: 150px;
 }
 .icon-readers-digest {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1880px -750px;
+  background-position: -1880px -1200px;
   width: 150px;
   height: 150px;
 }
 .icon-rocketfuel {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1880px -900px;
+  background-position: -1880px -1350px;
   width: 150px;
   height: 150px;
 }
 .icon-sailthru-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1880px -1050px;
+  background-position: -1880px -1500px;
   width: 150px;
   height: 150px;
 }
 .icon-salesforce-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1880px -1200px;
+  background-position: 0px -1770px;
   width: 150px;
   height: 150px;
 }
@@ -797,31 +815,31 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-shiven-ramji {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1880px -1500px;
+  background-position: -300px -1770px;
   width: 150px;
   height: 150px;
 }
 .icon-silverpop-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: 0px -1770px;
+  background-position: -450px -1770px;
   width: 150px;
   height: 150px;
 }
 .icon-stirista-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -150px -1770px;
+  background-position: -600px -1770px;
   width: 150px;
   height: 150px;
 }
 .icon-subscribermail-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -300px -1770px;
+  background-position: -750px -1770px;
   width: 150px;
   height: 150px;
 }
 .icon-suneet-bhatt {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -450px -1770px;
+  background-position: -900px -1770px;
   width: 150px;
   height: 150px;
 }
@@ -833,19 +851,19 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-technology-retailer {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -750px -1770px;
+  background-position: -1200px -1770px;
   width: 150px;
   height: 150px;
 }
 .icon-thomas-jenson {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -900px -1770px;
+  background-position: -1350px -1770px;
   width: 150px;
   height: 150px;
 }
 .icon-towerdata {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1050px -1770px;
+  background-position: -1500px -1770px;
   width: 150px;
   height: 150px;
 }
@@ -857,55 +875,55 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-tune {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1350px -1770px;
+  background-position: -1800px -1770px;
   width: 150px;
   height: 150px;
 }
 .icon-tvguide {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1500px -1770px;
+  background-position: -2030px 0px;
   width: 150px;
   height: 150px;
 }
 .icon-unionbank {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1650px -1770px;
+  background-position: -2030px -150px;
   width: 150px;
   height: 150px;
 }
 .icon-v12 {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1800px -1770px;
+  background-position: -1880px -900px;
   width: 150px;
   height: 150px;
 }
 .icon-washingtonpost {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -2030px 0px;
+  background-position: -1730px -1350px;
   width: 150px;
   height: 150px;
 }
 .icon-webbula {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -2030px -150px;
+  background-position: -1580px -300px;
   width: 150px;
   height: 150px;
 }
 .icon-whatcounts-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1880px -450px;
+  background-position: -1580px -150px;
   width: 150px;
   height: 150px;
 }
 .icon-wireless {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1730px -900px;
+  background-position: -750px -1320px;
   width: 150px;
   height: 150px;
 }
 .icon-yellowhammer {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -150px -1320px;
+  background-position: 0px -1020px;
   width: 150px;
   height: 150px;
 }
@@ -917,7 +935,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-yesmail-livecertified {
   background-image: url(../img/sprites/spritesheet.png);
-  background-position: -1125px -765px;
+  background-position: -1280px -150px;
   width: 150px;
   height: 150px;
 }

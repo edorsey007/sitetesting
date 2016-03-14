@@ -1,0 +1,104 @@
+---
+layout: default
+title: LiveIntent | Tech Careers
+description: Come be part of the revolution in the inbox. We are solving complex engineering problems. Browse the listings below!
+---
+
+<div class="main-container">
+   <section class="pt96 pb96 image-bg overlay-tech">
+        <div class="background-image-holder">
+            <img alt="Background" class="background-image" src="/img/careers/tech/tech-cover.jpg" />
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 mb-xs-8 text-center">
+                    <h1 class="mb24 large">Tech at LiveIntent</h1>
+                </div>
+                <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+                    <h3 class="mb8">We are changing the way people and businesses connect on the Internet by using big data, predictive algorithms and machine learning to solve complex problems.</h3>
+                    <i class="ti-angle-down home-i pt48 pb32 text-center"></i>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+             <h3 class="text-center pb32 pb-xs-16">What We Value</h3>
+                 <div class="col-xs-12 col-sm-4 text-center">
+                        <i class="ti-microphone tech-i pt16 pb16 text-center"></i>
+                        <h3 class="orange">Total Transparency</h3>
+                        <p class="mb8">We cultivate a culture of frankness and transparency. It’s the only way for us to move forward quickly and keep ourselves honest.</p>
+                </div>
+               <div class="col-xs-12 col-sm-4 text-center">
+                        <i class="ti-world tech-i pt16 pb16 text-center"></i>
+                        <h3 class="orange">Making an Impact</h3>
+                        <p class="mb8">We are changing the way marketing works on a global scale. We are finding ways to make marketing valuable to each person, in one of the spaces most ripe for innovation: email.</p>
+                </div>
+                <div class="col-xs-12 col-sm-4 text-center">
+                        <i class="ti-reload tech-i pt16 pb16 text-center"></i>
+                        <h3 class="orange">Constant Evolution</h3>
+                        <p class="mb8">Email is no longer about sending email— it has evolved to become your online passport. We are evolving, too. We obsessively iterate and improve our product, using tools like big data and predictive algorithms to push us to the next plateau of functionality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="image-square right">
+        <div class="col-md-6 image">
+            <div class="background-image-holder">
+                <img alt="image" class="background-image" src="/img/careers/tech/tech-square-right.jpg" />
+            </div>
+        </div>
+        <div class="col-md-6 content">
+            <h3 class="pb24">Growth and Opportunity</h3>
+            <p class="mb8">
+                LiveIntent is growing at lightning-speed, looking to shape the industry by solving problems with data-decisioning, predictive algorithms, actionable insights and realtime applications at scale — all while maintaining a delightful user experience. We are looking for people who are dedicated to elegantly building solutions that are pioneering an Industry
+            </p>
+             <p class="mb8">
+                We believe in a work environment where people both love the problems they are tackling and relish the team accompanying them on their journey. We are attracting mentors as well as engineers who wish to learn new disciplines and technologies.
+            </p>
+        </div>
+    </section>
+    <section class="image-square left">
+        <div class="col-md-6 image">
+            <div class="background-image-holder">
+                <img alt="image" class="background-image" src="/img/careers/tech/tech-square-left.jpg" />
+            </div>
+        </div>
+        <div class="col-md-6 col-md-offset-1 content">
+            <h3 class="mb16">We’re smart. We’re unique. We take on challenges.</h3>
+            <p class="mb0">
+                We eat spiralized vegetables and then have company wide meetings about it. We have fun while solving problems. We’re passionate about educating our clients, partners and employees. And we’re big evangelists about the power of email and how we’re building technology to make it mean so much more. We believe that when you open your heart and your mind to the power of the inbox, anything is possible.
+            </p>
+        </div>
+    </section>
+<section>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+              <h3 class="text-left">Open Positions</h3>
+              <thead>
+                <tr>
+                  <th>Position</th>
+                  <th>Location</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for engineer in site.data.engineer %}
+                <tr>
+                  <th><a href="{{ engineer.link }}">{{ engineer.position }}</a></th>
+                  <th>{{ engineer.location }}</th>
+                </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+          </div><!--end of .table-responsive-->
+        </div>
+      </div>
+    </div>
+</section>
+</div> <!--end of main container-->
