@@ -37,9 +37,18 @@ description: LiveIntent is a smarter way to market and advertise in email. Conta
                 <p>LiveIntent provides advertisers with comprehensive access to guaranteed, premium email inventory that achieves better performance and maximizes ROI. Our technology enables audience targeting, based on demographic, device, location, and more.</p>
             </div>
              <div class="col-xs-12 col-sm-5">
-                  <script src="//app-ab07.marketo.com/js/forms2/js/forms2.min.js"></script>
-                    <form id="mktoForm_1731"></form>
-                <script>MktoForms2.loadForm("//app-ab07.marketo.com", "920-LJZ-738", 1731);</script>
+                   <script src="//app-ab07.marketo.com/js/forms2/js/forms2.min.js"></script>
+                    <form style="margin:0 auto;" id="mktoForm_1731"></form>
+                    <script>MktoForms2.loadForm("//app-ab07.marketo.com", "920-LJZ-738", 1731, function(form){
+                      //Add an onSuccess handler
+                      form.onSuccess(function(values, followUpUrl){
+                        //Take the lead to a different page on successful submit, ignoring the form's configured followUpUrl.
+                        location.href = "https://liveintent.com/powered-by-confirmation/";
+                        //return false to prevent the submission handler continuing with its own processing
+                        return false;
+                      });
+                    });
+                    </script>
             </div>
         </div><!--end of row-->
     </div>

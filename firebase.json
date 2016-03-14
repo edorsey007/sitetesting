@@ -1,5 +1,5 @@
 {
-  "firebase": "liv2",
+  "firebase": "liveintent",
   "public": "_site",
   "ignore": [
     "firebase.json",
@@ -10,6 +10,36 @@
   "redirects": [ {
     "source" : "/adchoices",
     "destination" : "/ad-choices",
+    "type" : 301
+  },
+  {
+    "source" : "/content-requirements",
+    "destination" : "/content-policy",
+    "type" : 301
+  },
+  {
+    "source" : "/the-in-box",
+    "destination" : "http://blog.liveintent.com",
+    "type" : 301
+  },
+  {
+    "source" : "/the-in-box/li-weekly-thanks-ray",
+    "destination" : "http://blog.liveintent.com/li-weekly-thanks-ray/",
+    "type" : 301
+  },
+  {
+    "source" : "/the-in-box/marketers-shrug-off-facebooks-atlas",
+    "destination" : "http://blog.liveintent.com/marketers-shrug-off-facebooks-atlas/",
+    "type" : 301
+  },
+  {
+    "source" : "/the-in-box/li-weekly-the-politics-of-email",
+    "destination" : "http://blog.liveintent.com/li-weekly-the-politics-of-email/",
+    "type" : 301
+  },
+  {
+    "source" : "/advertiser-policy",
+    "destination" : "/content-policy",
     "type" : 301
   }]
 }

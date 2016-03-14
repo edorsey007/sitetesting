@@ -929,7 +929,7 @@ footer.bg-dark li,
   position: absolute !important;
   top:-10px !important;
   width:15rem !important;
-  display: block !important;
+  display: block;
 }
 
 .circle-meredith-left{
@@ -1278,6 +1278,10 @@ footer.bg-dark li,
         viewport units eliminate the white space issue */
       margin: 0 0 0 -19vw;
       width: 15vw;
+    }
+
+    .m-center{
+      text-align: center !important;
     }
 
 
@@ -5496,7 +5500,7 @@ section.image-zoom:hover img {
    }
 
    #mktoForm_1718{
-    margin-left:5rem;
+    margin-left:25px;
    }
 
    footer p{
