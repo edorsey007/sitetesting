@@ -2,7 +2,6 @@
 layout: default
 title: LiveIntent | Press & Events
 description: Browse the latest in LiveIntent News and stay up to date with events we attend.
-
 ---
 
 <div class="main-container bg-gray">
@@ -12,35 +11,30 @@ description: Browse the latest in LiveIntent News and stay up to date with event
 		  <div class="container">
 			<div class="col-sm-12 col-md-6">
 			  <div class="media-wrapper">
-				<h3 class="mb32">LiveIntent News</h3>
+				<h3 class="mb16">LiveIntent News</h3>
 				<ul>
-			   	{% for press in site.data.press %}
-				   <li>
+			   	{% for liveintent in site.data.liveintent %}
+				   <li class="pt8">
 				   	<div class="press-box">
-						<a href="{{ press.link }}"><h5>{{ press.title }}</h5></a>
-						<h6>{{ press.publication }}</h6>
-						<h6>{{ press.author }}</h6>
-						<h6>{{ press.date }}</h6>
+						<a href="{{ liveintent.link }}"><h5>{{ liveintent.title }}</h5></a>
 					</div>
 				   </li>
 				   {% endfor %}
-				</ul>
-				<a class="btn btn-sm btn-orange mb32" href="#">Full List</a>	
+				</ul>	
 			  </div><!--end of media wrapper-->
 			  <div class="press-wrapper">
-				<h3 class="mb32">Industry News</h3>
+				<h3 class="mb16 mt32">Industry News</h3>
 			   <ul>
-			   	{% for press in site.data.press %}
+			   	{% for news in site.data.news %}
 				   <li>
 				   	<div class="press-box">
-						<a href="{{ press.link }}"><h5>{{ press.title }}</h5></a>
-						<h6>{{ press.publication }}</h6>
-						<h6>{{ press.date }}</h6>
+						<a href="{{ press.link }}"><h5 class="orange">{{ news.title }}</h5></a>
+						<h5>{{ news.publication }}</h5>
+						<h5>{{ news.date }}</h5>
 					</div>
 				   </li>
 				   {% endfor %}
-				</ul>
-				<a class="btn btn-sm btn-orange mb32" href="#">Full List</a>	
+				</ul>	
 			  </div><!--end of media wrapper-->
 			</div><!--end of media/press links-->
 			<div class="col-sm-5 col-md-offset-1 col-md-5">

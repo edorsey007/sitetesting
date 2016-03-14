@@ -571,19 +571,16 @@ blockquote .author {
 
 .department-link{
   position: absolute;
-  top:2.5em;
-  left:1.5em;
-}
-
-.department-link:hover {
-  color:#F68F20 !important;
-  font-weight:400 !important;
+  top:-3.5rem;
+  left:3rem;
+  z-index: 2;
 }
 
 .department-arrow{
   position:absolute;
-  top:5em;
+  top:-2em;
   left:1em;
+  z-index: 2;
   color:#fff !important;
 }
 /*!---------- 4. COLORS ----------*/
@@ -976,6 +973,30 @@ footer.bg-dark li,
 
 .img-hero.fadeIn {
   opacity: 1;
+}
+
+.career-square-right{
+  background: url(/img/careers/careers-culture-1.jpg) no-repeat center center;
+  background-position: 50% 50%;
+  height:400px;
+}
+
+.career-square-left{
+  background: url(/img/careers/careers-culture-3.jpg) no-repeat center center;
+  background-position: 50% 50%;
+  height:400px;
+}
+
+.career-square-left-2{
+  background: url(/img/careers/hashman.jpg) no-repeat center center;
+  background-position: 50% 50%;
+  height:400px;
+}
+
+.career-square-center{
+  background: url(/img/careers/color-run.jpg) no-repeat center center;
+  background-position: 50% 50%;
+  height:400px;
 }
 
 .la-quinta-hero{
@@ -1745,7 +1766,7 @@ body.btn-rounded .btn {
   }
 
   .nav-list > li { 
-  padding: 10px 10px 15px !important;
+  padding: 5px 10px 5px !important;
   width:90% !important; 
   }
 
@@ -5162,11 +5183,11 @@ section.image-zoom:hover img {
   display: inline-block;
   text-align: left;
   overflow: hidden;
-  width: 250px;
+  width: 300px;
   margin-top: 24px;
 }
 .testimonials .quote-author img {
-  max-height: 60px;
+  max-height: 125px;
   float: left;
   display: inline-block;
   margin-right: 16px;
@@ -5175,7 +5196,7 @@ section.image-zoom:hover img {
   display: inline-block;
   margin-bottom: 0;
   line-height: 18px;
-  padding-top: 14px;
+  margin-top:30px;
 }
 .testimonials .quote-author span {
   display: block;
@@ -5475,7 +5496,7 @@ section.image-zoom:hover img {
    }
 
    #mktoForm_1718{
-    margin-left:4rem;
+    margin-left:5rem;
    }
 
    footer p{
@@ -5791,7 +5812,7 @@ footer span{
   padding: 0;
 }
 .ph{
-  padding:10px 50px 10px 50px;
+  padding:10px 45px 10px 45px;
 }
 .pl62{
   padding-left:62px;
