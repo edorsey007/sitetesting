@@ -4939,7 +4939,8 @@ video {
 }
 .image-square .image,
 .image-square .content,
-.image-square .content-careers {
+.image-square .content-careers,
+.image-square .content-tech {
   position: absolute;
 }
 .image-square .image {
@@ -4952,12 +4953,26 @@ video {
   -webkit-transform: translate3d(0, -50%, 0);
   -moz-transform: translate3d(0, -50%, 0);
 }
+.image-square .content-tech{
+  padding-top:0px;
+  padding-left:0px;
+  padding-right:50px;
+  padding-bottom:0px;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  -webkit-transform: translate3d(0, -50%, 0);
+  -moz-transform: translate3d(0, -50%, 0);
+
+}
 .image-square.left .image {
   left: 0;
 }
 .image-square.left .content,
 .image-square.left .content-careers {
   right: 0;
+}
+.image-square.left .content-tech{
+  right:80px;
 }
 .image-square.right .image{
   right: 0;
@@ -4968,7 +4983,6 @@ video {
 }
 
 .content-tech{
-  padding: 0 2%;
   top: 50%;
   transform: translate3d(0, -50%, 0);
   -webkit-transform: translate3d(0, -50%, 0);
@@ -4990,7 +5004,8 @@ video {
   }
   .image-square .image,
   .image-square .content,
-  .image-square .content-careers {
+  .image-square .content-careers,
+  .image-square .content-tech{
     position: relative;
   }
   .image-square .image {
@@ -5004,11 +5019,21 @@ video {
     -webkit-transform: none;
     padding: 0 20%;
   }
+   .image-square .content-tech {
+    top: 0;
+    transform: none;
+    -webkit-transform: none;
+    padding: 0 20%;
+  }
   .image-square .content-careers {
     top: 0;
     transform: none;
     -webkit-transform: none;
     padding: 0 20%;
+  }
+  .image-square.left .content-tech{
+    right:0px !important;
+    padding-top:200px;
   }
 }
 @media all and (max-width: 767px) {
@@ -5017,6 +5042,12 @@ video {
   }
   .image-square .content-careers {
     padding: 0 15px;
+  }
+  .image-square .content-tech {
+    padding: 0 15px;
+  }
+  .image-square.left .content-tech{
+    right:0px !important;
   }
 }
 section.image-zoom img {
@@ -6301,6 +6332,9 @@ footer span{
   }
   .mt-xs-120 {
     margin-top: 120px;
+  }
+  .mt-xs-160{
+    margin-top:160px;
   }
   .p0-xs {
     padding: 0;

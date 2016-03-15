@@ -1,0 +1,407 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-activecampaign-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -300px -690px;
+  width: 150px;
+  height: 150px;
+}
+.icon-acxiom-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1005px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-adestra-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -855px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-adjust {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: 0px -840px;
+  width: 150px;
+  height: 150px;
+}
+.icon-adobe-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -600px -840px;
+  width: 150px;
+  height: 150px;
+}
+.icon-alc {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1005px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-apps-flyer {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1305px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-bluehornet-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1305px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-boomtrain-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -470px -460px;
+  width: 150px;
+  height: 150px;
+}
+.icon-bronto-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -705px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-campaigner-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -705px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-campaignmonitor-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -705px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-centro {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -705px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-communicator-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: 0px -690px;
+  width: 150px;
+  height: 150px;
+}
+.icon-cordial-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -150px -690px;
+  width: 150px;
+  height: 150px;
+}
+.icon-data-cheat-sheet {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -235px 0px;
+  width: 235px;
+  height: 230px;
+}
+.icon-dataline {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -450px -690px;
+  width: 150px;
+  height: 150px;
+}
+.icon-dataxu {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -600px -690px;
+  width: 150px;
+  height: 150px;
+}
+.icon-dbm {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -855px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-demandbase {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -855px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-dsp-cheatsheet {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: 0px -230px;
+  width: 235px;
+  height: 230px;
+}
+.icon-emarsys-livecertfied {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -855px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-epsilon-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -855px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-esp-resources {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -235px -230px;
+  width: 235px;
+  height: 230px;
+}
+.icon-experian-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -150px -840px;
+  width: 150px;
+  height: 150px;
+}
+.icon-expertsender-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -300px -840px;
+  width: 150px;
+  height: 150px;
+}
+.icon-getresponse-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -450px -840px;
+  width: 150px;
+  height: 150px;
+}
+.icon-how-to-succeed {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -470px 0px;
+  width: 235px;
+  height: 230px;
+}
+.icon-icontact-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -750px -840px;
+  width: 150px;
+  height: 150px;
+}
+.icon-ignitionone {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1005px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-kochava {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1005px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-listrak-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1005px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-liveaudience-esp {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -470px -230px;
+  width: 235px;
+  height: 230px;
+}
+.icon-liveaudience-faq {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: 0px 0px;
+  width: 235px;
+  height: 230px;
+}
+.icon-liveramp {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1005px -750px;
+  width: 150px;
+  height: 150px;
+}
+.icon-lotame {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: 0px -990px;
+  width: 150px;
+  height: 150px;
+}
+.icon-mailchimp-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -150px -990px;
+  width: 150px;
+  height: 150px;
+}
+.icon-mailup-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -300px -990px;
+  width: 150px;
+  height: 150px;
+}
+.icon-maropost-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -450px -990px;
+  width: 150px;
+  height: 150px;
+}
+.icon-mdotm {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -600px -990px;
+  width: 150px;
+  height: 150px;
+}
+.icon-mediamath {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -750px -990px;
+  width: 150px;
+  height: 150px;
+}
+.icon-messagegears-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -900px -990px;
+  width: 150px;
+  height: 150px;
+}
+.icon-myemma-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1155px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-netwise {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1155px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-newsme-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1155px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-nielson {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1155px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-ongage {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1155px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-postup-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1155px -750px;
+  width: 150px;
+  height: 150px;
+}
+.icon-predict-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1155px -900px;
+  width: 150px;
+  height: 150px;
+}
+.icon-proclivity {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: 0px -1140px;
+  width: 150px;
+  height: 150px;
+}
+.icon-pure360-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -150px -1140px;
+  width: 150px;
+  height: 150px;
+}
+.icon-rocketfuel {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -300px -1140px;
+  width: 150px;
+  height: 150px;
+}
+.icon-sailthru-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -450px -1140px;
+  width: 150px;
+  height: 150px;
+}
+.icon-salesforce-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -600px -1140px;
+  width: 150px;
+  height: 150px;
+}
+.icon-silverpop-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -750px -1140px;
+  width: 150px;
+  height: 150px;
+}
+.icon-stirista-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -900px -1140px;
+  width: 150px;
+  height: 150px;
+}
+.icon-subscribermail-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1050px -1140px;
+  width: 150px;
+  height: 150px;
+}
+.icon-targeting-display-dsp {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: 0px -460px;
+  width: 235px;
+  height: 230px;
+}
+.icon-towerdata {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1305px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-tune-sdk {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -235px -460px;
+  width: 235px;
+  height: 230px;
+}
+.icon-tune {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1305px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-v12 {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1305px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-webbula {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1305px -750px;
+  width: 150px;
+  height: 150px;
+}
+.icon-whatcounts-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1305px -900px;
+  width: 150px;
+  height: 150px;
+}
+.icon-yellowhammer {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: -1305px -1050px;
+  width: 150px;
+  height: 150px;
+}
+.icon-yesmail-livecertified {
+  background-image: url(../img/sprites/partners/spritesheet.png);
+  background-position: 0px -1290px;
+  width: 150px;
+  height: 150px;
+}

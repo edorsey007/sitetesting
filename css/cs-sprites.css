@@ -1,0 +1,209 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-american-auto {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -150px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-american-coffee {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -600px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-aop {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: 0px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-auto {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -150px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-b2b-finance {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -300px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-b2b-online {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -300px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-b2b-package {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: 0px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-bookbub {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -150px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-credit-card {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -300px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-disney {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -450px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-electronics {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -450px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-flightnetwork {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -450px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-grommet {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: 0px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-health-insurance {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -150px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-home-decor {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -300px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-horoscope {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -450px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-indpt-money {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: 0px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-interactiveone {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -600px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-kraft {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -600px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-luxury-auto {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -600px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-luxury-retail {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: 0px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-napco {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -150px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-nyu-stern {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -300px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-patch {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -450px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-pharma {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -600px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-prime-publishing {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -750px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-readers-digest {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -750px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-technology-retailer {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -750px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-tvguide {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -750px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-unionbank {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -750px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-washingtonpost {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: 0px -750px;
+  width: 150px;
+  height: 150px;
+}
+.icon-wireless {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -150px -750px;
+  width: 150px;
+  height: 150px;
+}
+.icon-yellowstone {
+  background-image: url(../img/sprites/cs/spritesheet.png);
+  background-position: -300px -750px;
+  width: 150px;
+  height: 149px;
+}
