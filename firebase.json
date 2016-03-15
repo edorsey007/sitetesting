@@ -38,6 +38,11 @@
     "type" : 301
   },
   {
+    "source" : "/the-in-box/:post*",
+    "destination" : "http://blog.liveintent.com/:post*",
+    "type" : 301
+  },
+  {
     "source" : "/advertiser-policy",
     "destination" : "/content-policy",
     "type" : 301
