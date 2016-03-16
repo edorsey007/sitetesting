@@ -43,12 +43,12 @@
   image: icon-cordial-livecertified
 
 - name: Emma
-  link: http://myemma.com/
-  image: icon-emma-livecertified
+  link: http://myemma.com/partners/get-started?utm_source=Liv50560&utm_medium=strategicpartner&utm_campaign=partner-trial 
+  image: icon-myemma-livecertified
 
 - name: Emarsys
   link: http://www.emarsys.com/en/
-  image: icon-emarsys-livecertified
+  image: icon-emarsys-livecertfied
 
 - name: Epsilon
   link: http://www.epsilon.com/
@@ -96,7 +96,7 @@
 
 - name: Ongage
   link: https://www.ongage.com/
-  image: icon-ongage-livecertified
+  image: icon-ongage
 
 - name: PostUp
   link: http://www.postup.com/
