@@ -78,11 +78,6 @@
   title: VP Platform Development
   linkedin: kerelcooper
 
-- name: Audrey MacIsaac
-  headshot: icon-audrey-maclsaac
-  title: VP Business Operations
-  linkedin: audreymhenderson
-
 - name: Boris Mouzykantskii
   headshot: icon-boris-mouzykantskii
   title: Chief Scientist
@@ -100,6 +95,7 @@
 - name: Fernando Schwartz
   headshot: icon-fernando-schwartz
   title: Chief Data Scientist
+  linkedin: fernando-schwartz-15baa045
 
 - name: Ali Swerdlow
   headshot: icon-ali-swerdlow
