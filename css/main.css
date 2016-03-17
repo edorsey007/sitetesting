@@ -155,7 +155,6 @@ hr.short-thick {
 }
 
 .show-box{
-  border:1px solid #C6C6CA;
   padding:10px 5px 0px 5px;
   height: 135px;
   text-align:center;
@@ -166,7 +165,6 @@ hr.short-thick {
 }
 
 .show-box-a{
-  border:1px solid #C6C6CA;
   padding:10px 5px 0px 5px;
   height: 100px;
   text-align:center;

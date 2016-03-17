@@ -1,0 +1,61 @@
+---
+layout: default
+title: LiveIntent | Press Archives
+description: Browse the LiveIntent press archives to see what we have been mentioned in lately.
+---
+
+<div class="main-container bg-gray">
+	 <section class="pt96 pb96 image-bg">
+	    <div class="background-image-holder">
+	        <img alt="Background" class="background-image img-responsive" src="/img/resources/marketing-materials-hero.jpg" />
+	    </div>
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-sm-12 mb-xs-24 text-center">
+	                <h1 class="mb8 semi-bold">Press Archives</h1>
+	            </div>
+	        </div>
+	        <!--end of row-->
+	    </div>
+	    <!--end of container-->
+	</section>
+	<section>
+		<div class="row">
+		  <div class="container">
+			<div class="col-sm-12 col-md-6 pt32 pt-xs-0">
+			  <div class="media-wrapper">
+				<h3 class="mb16 orange">LiveIntent News</h3>
+				<ul>
+			   	{% for li-news-archive in site.data.li-news-archive %}
+				   <li class="pt8">
+				   	<div class="press-box">
+						<a href="{{ li-news-archive.link }}"><h5 class="color-fun-blue">{{ li-news-archive.title }}</h5></a>
+						<h5>{{ li-news-archive.author }}</h5>
+						<h5>{{ li-news-archive.publication }}</h5>
+					</div>
+				   </li>
+				   {% endfor %}
+				</ul>	
+			  </div><!--end of media wrapper-->
+			</div>
+			<div class="col-sm-12 col-md-6">
+			  <div class="press-wrapper">
+				<h3 class="mb16 mt32 orange">Industry News</h3>
+			   <ul>
+			   	{% for industry-news-archive in site.data.industry-news-archive %}
+				   <li>
+				   	<div class="press-box">
+						<a href="{{ press.link }}"><h5 class="color-fun-blue">{{ industry-news-archive.title }}</h5></a>
+						<h5>{{ industry-news-archive.author}}</h5>
+						<h5>{{ industry-news-archive.publication }}</h5>
+					</div>
+				   </li>
+				   {% endfor %}
+				</ul>	
+			  </div><!--end of media wrapper-->
+			 </div>
+			</div><!--end of media/press links-->
+	      </div>
+		</div>
+	</section>
+</div> <!--end of main container-->
