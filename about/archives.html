@@ -45,7 +45,7 @@ description: Browse the LiveIntent press archives to see what we have been menti
 			   	{% for industry-news-archive in site.data.industry-news-archive %}
 				   <li>
 				   	<div class="press-box">
-						<a href="{{ press.link }}"><h5 class="color-fun-blue">{{ industry-news-archive.title }}</h5></a>
+						<a href="{{ industry-news-archive.link }}"><h5 class="color-fun-blue">{{ industry-news-archive.title }}</h5></a>
 						<h5>{{ industry-news-archive.author}}</h5>
 						<h5>{{ industry-news-archive.publication }}</h5>
 					</div>
