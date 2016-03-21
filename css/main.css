@@ -5694,7 +5694,7 @@ footer span{
 
 
 .facebookBtn:hover{
-    color: #4060A5;
+    color: #4060A5 !important;
     background: #fff;
 }
 
@@ -5709,7 +5709,7 @@ footer span{
 }
 
 .twitterBtn:hover{
-      color: #00ABE3;
+      color: #00ABE3 !important;
       background: #fff;
 }
 
@@ -5724,7 +5724,7 @@ footer span{
 }
 
 .linkedinBtn:hover{
-      color: #0094BC;
+      color: #0094BC !important;
       background: #fff;
 }
 
