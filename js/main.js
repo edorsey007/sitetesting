@@ -310,7 +310,6 @@ $(document).ready(function () {
     $('section').closest('body').find('.close-iframe').click(function() {
         $(this).closest('.modal-video').toggleClass('reveal-modal');
         $(this).siblings('iframe').attr('src', '');
-        $(this).siblings('video').get(0).pause();
     });
 
     // Local Videos

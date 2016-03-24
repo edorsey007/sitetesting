@@ -943,7 +943,7 @@ footer.bg-dark li,
   right:0px !important;
   position: absolute !important;
   top:-10px !important;
-  width:15rem !important;
+  width:15rem;
   display: block;
 }
 
@@ -951,7 +951,7 @@ footer.bg-dark li,
   z-index: 5 !important;
   left:0px !important;
   position: absolute !important;
-  width:15rem !important;
+  width:15rem;
   bottom:0px !important;
 }
 
@@ -4420,7 +4420,7 @@ video {
 .play-button {
   width: 80px;
   height: 80px;
-  border: 2px solid #fff;
+  border: 2px solid #F68F20;
   text-align: center;
   margin: 0 auto;
   position: absolute;
@@ -4446,7 +4446,7 @@ video {
   height: 0;
   border-style: solid;
   border-width: 15px 0 15px 26.0px;
-  border-color: transparent transparent transparent #ffffff;
+  border-color: transparent transparent transparent #F68F20;
 }
 .play-button:hover {
   transform: scale(1.1);
