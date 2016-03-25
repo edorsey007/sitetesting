@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LiveIntent | Ad Operations
+title: LiveIntent | Product
 ---
 
 <div class="main-container">
@@ -8,14 +8,14 @@ title: LiveIntent | Ad Operations
     <div class="background-image-holder">
         <img alt="Background" class="background-image img-responsive" src="/img/careers/departments-bg.jpg" />
     </div>
-      <div class="col-xs-12">
+     <div class="col-xs-12">
       <a class="department-link pull-left" href="/careers/departments">All Departments</a><i class="ti-angle-left department-arrow"></i>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-8 col-md-offset-2 mb-xs-8 text-center">
-                <h1 class="mb8 semi-bold">Ad Operatins</h1>
-                <h4 class="text-center">We are 24/7 365, motivated, tinkering and tweaking soldiers (not tailors or spies.) We make sure our customers get and stay off the ground.</h4>
+                <h1 class="mb8 semi-bold">Product</h1>
+                <h4 class="text-center">We are entrepreneurs, strategists, and customer advocates. We create and identify opportunities in the market, and translate them into solutions to our customer's problems.</h4>
             </div>
         </div>
         <!--end of row-->
@@ -36,10 +36,10 @@ title: LiveIntent | Ad Operations
                 </tr>
               </thead>
               <tbody>
-                {% for adoperations in site.data.adoperations %}
+                {% for product in site.data.product %}
                 <tr>
-                  <th><a href="{{ adoperations.link }}">{{ adoperations.position }}</a></th>
-                  <th>{{ adoperations.location }}</th>
+                  <th><a href="{{ product.link }}">{{ product.position }}</a></th>
+                  <th>{{ product.location }}</th>
                 </tr>
               {% endfor %}
               </tbody>

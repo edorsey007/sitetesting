@@ -574,6 +574,10 @@ blockquote .author {
   z-index: 2;
 }
 
+.department-link:hover{
+  color:#F68F20 !important;
+}
+
 .department-arrow{
   position:absolute;
   top:-2em;
