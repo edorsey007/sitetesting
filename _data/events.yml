@@ -1,28 +1,3 @@
-- title: Bronto Summit
-  location: Miami Beach, FL
-  date: March 14-17, 2016
-  link: http://summit.bronto.com/
-
-- title: Adobe Digital Marketing Summit
-  location: Las Vegas
-  date: March 20-24, 2016
-  link: http://summit.adobe.com/na/
-
-- title: Changing Media Summit 2016
-  location: London
-  date: March 23-24, 2016
-  link: http://www.eventbrite.co.uk/e/the-guardian-changing-media-summit-2016-tickets-17980131056
-
-- title: Bronto Summit
-  location: Miami Beach, FL
-  date: March 14-17, 2016
-  link: http://summit.bronto.com/
-
-- title: Adobe Digital Marketing Summit
-  location: Las Vegas NV
-  date: March 20-24, 2016
-  link: http://summit.adobe.com/na/
-
 - title: EEC
   location: New Orleans, LA
   date: March 30 - April 1, 2016
@@ -38,7 +13,62 @@
   date: April 5 - 6, 2016
   link: http://adage.com/events/digital-conference-2016/
 
-- title: FT Digital Media 2016
+- title: Digiday Brand Summit 
   location: London
-  date: April 12 - 13, 2016
-  link: https://live.ft.com/Events/2016/FT-Digital-Media-2016
+  date: April 25 - 27, 2016
+  link: http://digiday.com/event/brand-summit-2016-april/
+
+- title: Oracle Modern Marketing Experience MME
+  location: Las Vegas, NV
+  date: April 26-28, 2016
+  link: https://www.oracle.com/marketingcloud/about/events/modern-marketing-experience/na.html
+
+- title: iMedia Agency Summit
+  location: Lost Pines, Texas
+  date: May 1-4, 2016
+  link: http://summit.bronto.com/
+
+- title: MediaPost Publishing Insider Summit 
+  location: Key Largo, FL
+  date: May 1-4, 2016
+  link: https://www.mediapost.com/publishinginsidersummit/register/
+
+- title: British Media Awards
+  location: London
+  date: May 4, 2016
+  link: http://britishmediaawards.com/
+
+- title: Salesforce Connections
+  location: Atlanta, GA
+  date: May 10-12, 2016
+  link: http://pages.mail.salesforce.com/Connections2016/
+
+- title: PPA Festival
+  location: London
+  date: May 12, 2016
+  link: http://www.ppa.co.uk/festival/
+
+- title: eTail Canada 2016
+  location: Toronto
+  date: May 16-19, 2016
+  link: https://register.wbresearch.com/srspricing.aspx?eventid=1001904&MAC=ETCW500
+
+- title: Digiday Programmatic Summit
+  location: New Orleans, LA
+  date: May 23-25, 2016
+  link: https://digiday-programmatic-may-2016.eventfarm.com/event/7fff5387-0000-4564-af44-6423b06a9e3f
+
+- title: IRCE
+  location: Chicago, IL
+  date: June 7-10, 2016
+  link: http://www.irce.com/attendees/registration/
+
+- title: Cannes Lions
+  location: Toronto
+  date: June 19-25, 2016
+  link: https://www.canneslions.com/
+
+- title: Dmexco
+  location: Cologne, Germany
+  date: Sep 14-15, 2016
+  link: http://dmexco.de/en/Home.html
