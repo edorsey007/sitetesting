@@ -95,6 +95,12 @@ description: Come be part of the revolution in the inbox. We are solving complex
                   <th>{{ engineer.location }}</th>
                 </tr>
               {% endfor %}
+                {% for product in site.data.product %}
+                <tr>
+                  <th><a href="{{ engineer.link }}">{{ product.position }}</a></th>
+                  <th>{{ product.location }}</th>
+                </tr>
+              {% endfor %}
               </tbody>
             </table>
           </div><!--end of .table-responsive-->
