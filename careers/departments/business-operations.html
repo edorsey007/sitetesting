@@ -1,7 +1,7 @@
 ---
 layout: default
-title: LiveIntent | Account Managment
-description: LiveIntent is looking for top talent! Join our growing ad operations team and help revolutionize people based marketing. Browse our listings and apply today.
+title: LiveIntent | Business Operations
+description: LiveIntent is looking for top talent! Join our business operations team and keep LiveIntent running smooth. Browse our listings and apply today.
 ---
 
 <div class="main-container">
@@ -15,8 +15,8 @@ description: LiveIntent is looking for top talent! Join our growing ad operation
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-8 col-md-offset-2 mb-xs-8 text-center">
-                <h1 class="mb8 semi-bold">Account Management</h1>
-                <h4 class="text-center">We are front-line doers, the voice of the customer, the non-sales side of sales. We monitor and manage the work our customers do with us, and provide insight to keep improving performance.</h4>
+                <h1 class="mb8 semi-bold">Business Operations</h1>
+                <h4 class="text-center">We are wizards in oz, Third Person Omniscients, future world leaders, maybe. We keep the data flowing and the company running behind the scenes, so we avoid scenes on the front-lines or anywhere else.</h4>
             </div>
         </div>
         <!--end of row-->
@@ -37,10 +37,10 @@ description: LiveIntent is looking for top talent! Join our growing ad operation
                 </tr>
               </thead>
               <tbody>
-                {% for account-management in site.data.account-management %}
+                {% for business-operations in site.data.business-operations %}
                 <tr>
-                  <th><a href="{{ account-management.link }}">{{ account-management.position }}</a></th>
-                  <th>{{ account-management.location }}</th>
+                  <th><a href="{{ business-operations.link }}">{{ business-operations.position }}</a></th>
+                  <th>{{ business-operations.location }}</th>
                 </tr>
               {% endfor %}
               </tbody>
