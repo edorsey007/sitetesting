@@ -66,6 +66,10 @@
   link: http://www.getresponse.com/
   image: icon-getresponse-livecertified
 
+- name: IBM Marketing Cloud
+  link: https://www.ibm.com/marketplace/cloud/digital-marketing-and-lead-management/us/en-us
+  image: icon-ibm-livecertified
+
 - name: iContact
   link: https://www.icontact.com/
   image: icon-icontact-livecertified
@@ -118,9 +122,9 @@
   link: http://www.salesforce.com/marketing-cloud/overview/
   image: icon-salesforce-livecertified
 
-- name: Silverpop
-  link: http://www.silverpop.com/
-  image: icon-silverpop-livecertified
+- name: Selligent
+  link: https://www.selligent.com/
+  image: icon-selligent-livecertified
 
 - name: Stirista
   link: http://www.stirista.com/
@@ -129,6 +133,10 @@
 - name: Subscriber Mail
   link: http://www.subscribermail.com/
   image: icon-subscribermail-livecertified
+
+- name: Upaknee
+  link: http://www.upaknee.com/
+  image: icon-upaknee-livecertified
 
 - name: Whatcounts
   link: http://www.whatcounts.com/

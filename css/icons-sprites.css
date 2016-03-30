@@ -11,49 +11,49 @@ Icon classes can be used entirely standalone. They are named after their origina
 */
 .icon-advertiser-icon {
   background-image: url(../img/sprites/icons/spritesheet.png);
-  background-position: -225px -175px;
+  background-position: -300px -175px;
   width: 75px;
   height: 75px;
 }
 .icon-circle-left-meredith {
   background-image: url(../img/sprites/icons/spritesheet.png);
-  background-position: -150px 0px;
+  background-position: -300px 0px;
   width: 150px;
   height: 157px;
 }
 .icon-circle-right-meredith {
   background-image: url(../img/sprites/icons/spritesheet.png);
-  background-position: -300px 0px;
+  background-position: 0px -175px;
   width: 150px;
   height: 157px;
 }
 .icon-hero-circle-left {
   background-image: url(../img/sprites/icons/spritesheet.png);
-  background-position: -150px -175px;
-  width: 75px;
-  height: 88px;
+  background-position: 0px 0px;
+  width: 150px;
+  height: 175px;
 }
 .icon-hero-circle-right {
   background-image: url(../img/sprites/icons/spritesheet.png);
-  background-position: 0px -175px;
+  background-position: -150px -175px;
   width: 150px;
   height: 157px;
 }
 .icon-hero-circles-left {
   background-image: url(../img/sprites/icons/spritesheet.png);
-  background-position: 0px 0px;
+  background-position: -150px 0px;
   width: 150px;
   height: 175px;
 }
 .icon-marketer-icon {
   background-image: url(../img/sprites/icons/spritesheet.png);
-  background-position: -300px -175px;
+  background-position: -375px -175px;
   width: 75px;
   height: 75px;
 }
 .icon-publisher-icon {
   background-image: url(../img/sprites/icons/spritesheet.png);
-  background-position: -375px -175px;
+  background-position: -300px -250px;
   width: 75px;
   height: 75px;
 }
