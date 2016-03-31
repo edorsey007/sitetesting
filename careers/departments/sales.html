@@ -1,0 +1,53 @@
+---
+layout: default
+title: LiveIntent | Sales
+description: LiveIntent is looking for top talent! Come bring our revolutionary email products to market. Browse the listings below!
+---
+
+<div class="main-container">
+ <section class="pt48 pb48 image-bg overlay">
+    <div class="background-image-holder">
+        <img alt="Background" class="background-image img-responsive" src="/img/careers/departments-bg.jpg" />
+    </div>
+      <div class="col-xs-12">
+      <a class="department-link pull-left" href="/careers/departments">All Departments</a><i class="ti-angle-left department-arrow"></i>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-md-offset-2 mb-xs-8 text-center">
+                <h1 class="mb8 semi-bold">Sales</h1>
+                <h4 class="text-center">You are on the front lines. You are the face of the company. Ready to take our products to market? Come get invovled.</h4>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+<section>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+              <h3 class="text-left">Open Positions</h3>
+              <thead>
+                <tr>
+                  <th>Position</th>
+                  <th>Location</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for sales in site.data.sales %}
+                <tr>
+                  <th><a href="{{ sales.link }}">{{ sales.position }}</a></th>
+                  <th>{{ sales.location }}</th>
+                </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+          </div><!--end of .table-responsive-->
+        </div>
+      </div>
+    </div>
+</section>
+</div> <!--end of main container-->
