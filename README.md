@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://liveintent.com/img/liveintent-logo-orange.png" alt="LiveIntent: A Smarter Way to Market and Advertise in Email." width="801">
+  <img src="https://liveintent.com/img/logos/liveintent-logo-orange.png" alt="LiveIntent: A Smarter Way to Market and Advertise in Email." width="801">
 </p>
 
 <p align="center">LiveIntent: A Smarter Way to Market and Advertise in Email.</p>
@@ -11,7 +11,7 @@
 Features
 ------------
 
-* **Jekyll Templating** —
+* **Jekyll Templating** 
 
 * **Firebase Hosting** 
 
@@ -90,7 +90,7 @@ $ jekyll serve --detach
 ```
 ### Directory Structure
 
-[Jekyll Director Docs](https://jekyllrb.com/docs/structure/). Each URL has a folder. For example: 
+[Jekyll Directory Docs](https://jekyllrb.com/docs/structure/). Each URL has a folder. For example: 
 
 "/about" contains an index.html file which is linked to liveintent.com/about
 "/about/press" contains a press.html file which is linked to liveintent.com/about/press 
