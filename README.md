@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://liveintent.com/img/logos/liveintent-logo-orange.png" alt="LiveIntent: A Smarter Way to Market and Advertise in Email." width="801">
+  <img src="https://liveintent.com/img/logos/liveintent-logo-orange.png" alt="LiveIntent: A Smarter Way to Market and Advertise in Email." width="400">
 </p>
 
 <p align="center">LiveIntent: A Smarter Way to Market and Advertise in Email.</p>
