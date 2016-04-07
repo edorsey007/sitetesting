@@ -83,7 +83,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-Liron-Gitig {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -1115px -750px;
+  background-position: 0px -1030px;
   width: 150px;
   height: 150px;
 }
@@ -125,13 +125,13 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-ali-swerdlow {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -1115px -450px;
+  background-position: -1115px -600px;
   width: 150px;
   height: 150px;
 }
 .icon-audrey-maclsaac {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -965px -600px;
+  background-position: 0px -880px;
   width: 150px;
   height: 150px;
 }
@@ -143,13 +143,13 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-boris-mouzykantskii {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -965px -300px;
+  background-position: -965px -450px;
   width: 150px;
   height: 150px;
 }
 .icon-bullpen_logo {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -965px -150px;
+  background-position: -965px -300px;
   width: 150px;
   height: 150px;
 }
@@ -171,21 +171,27 @@ Icon classes can be used entirely standalone. They are named after their origina
   width: 150px;
   height: 150px;
 }
-.icon-dave-hendricks {
+.icon-dash-teter {
   background-image: url(../img/sprites/team/spritesheet.png);
   background-position: -600px -880px;
   width: 150px;
   height: 150px;
 }
-.icon-eric-raab {
+.icon-dave-hendricks {
   background-image: url(../img/sprites/team/spritesheet.png);
   background-position: -765px -725px;
   width: 150px;
   height: 150px;
 }
-.icon-fernando-schwartz {
+.icon-eric-raab {
   background-image: url(../img/sprites/team/spritesheet.png);
   background-position: -965px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-fernando-schwartz {
+  background-image: url(../img/sprites/team/spritesheet.png);
+  background-position: -965px -150px;
   width: 150px;
   height: 150px;
 }
@@ -203,7 +209,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-gary-deutsch {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -965px -450px;
+  background-position: -965px -600px;
   width: 150px;
   height: 150px;
 }
@@ -215,61 +221,61 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-jason-kelly {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: 0px -880px;
+  background-position: -150px -880px;
   width: 150px;
   height: 150px;
 }
 .icon-jason-oates {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -150px -880px;
+  background-position: -300px -880px;
   width: 150px;
   height: 150px;
 }
 .icon-john-engler {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -300px -880px;
+  background-position: -450px -880px;
   width: 150px;
   height: 150px;
 }
 .icon-jon-beck {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -450px -880px;
+  background-position: -465px -725px;
   width: 150px;
   height: 150px;
 }
 .icon-joseph-dressler {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -465px -725px;
+  background-position: -750px -880px;
   width: 150px;
   height: 150px;
 }
 .icon-julia-rieger {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -750px -880px;
+  background-position: -900px -880px;
   width: 150px;
   height: 150px;
 }
 .icon-kamuti-kiteme {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -900px -880px;
+  background-position: -1115px 0px;
   width: 150px;
   height: 150px;
 }
 .icon-karla-partilla {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -1115px 0px;
+  background-position: -1115px -150px;
   width: 150px;
   height: 150px;
 }
 .icon-kerel-cooper {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -1115px -150px;
+  background-position: -1115px -300px;
   width: 150px;
   height: 150px;
 }
 .icon-kyle-brown {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -1115px -300px;
+  background-position: -1115px -450px;
   width: 150px;
   height: 150px;
 }
@@ -281,7 +287,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-matt-keiser {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -1115px -600px;
+  background-position: -1115px -750px;
   width: 150px;
   height: 150px;
 }
@@ -293,19 +299,19 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-shiven-ramji {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: 0px -1030px;
+  background-position: -150px -1030px;
   width: 150px;
   height: 150px;
 }
 .icon-suneet-bhatt {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -150px -1030px;
+  background-position: -300px -1030px;
   width: 150px;
   height: 150px;
 }
 .icon-thomas-jenson {
   background-image: url(../img/sprites/team/spritesheet.png);
-  background-position: -300px -1030px;
+  background-position: -450px -1030px;
   width: 150px;
   height: 150px;
 }
