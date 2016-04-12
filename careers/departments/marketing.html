@@ -37,10 +37,10 @@ description: LiveIntent is looking for top talent! Join our growing marketing te
                 </tr>
               </thead>
               <tbody>
-                {% for account-management in site.data.account-management %}
+                {% for marketing in site.data.marketing %}
                 <tr>
-                  <th><a href="{{ account-management.link }}">{{ account-management.position }}</a></th>
-                  <th>{{ account-management.location }}</th>
+                  <th><a href="{{ account-management.link }}">{{ marketing.position }}</a></th>
+                  <th>{{ marketing.location }}</th>
                 </tr>
               {% endfor %}
               </tbody>
