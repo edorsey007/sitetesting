@@ -119,7 +119,7 @@
   image: icon-sailthru-livecertified
 
 - name: Salesforce Marketing Cloud
-  link: http://www.salesforce.com/marketing-cloud/overview/
+  link: /partners/salesforce-marketing-cloud
   image: icon-salesforce-livecertified
 
 - name: Selligent
