@@ -124,7 +124,7 @@ hr.short-thick {
   margin-left: 0;
 }
 .list-inline > li {
-  padding: 0 8px;
+  padding: 0 3px;
 }
 .list-inline > li:last-child {
   padding-right: 0;
@@ -744,6 +744,11 @@ section{
 .section-sm{
   padding:10px 0 !important;
 }
+
+.section-sm-footer{
+  padding:30px 0 !important;
+}
+
 
 .section-xs{
   padding:0px 0 !important;
