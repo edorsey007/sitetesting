@@ -5833,6 +5833,10 @@ footer span{
   margin-left:16px;
 }
 
+.ml16{
+  margin-left:16px;
+}
+
 .mt0 {
   margin-top: 0 !important;
 }
@@ -5906,6 +5910,11 @@ footer span{
   padding-left:0px !important;
   height:50vw;
 }
+
+.pl30{
+  padding-left:30px;
+}
+
 .pl62{
   padding-left:62px;
 }
