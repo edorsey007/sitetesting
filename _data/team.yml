@@ -33,6 +33,16 @@
   title: Chief Technology Officer
   linkedin: carstenhyldahl
 
+- name: Dave Helmreich
+  headshot: icon-helmreich
+  title: Chief Operations Officer
+  linkedin: davehelmreich
+
+- name: David Gensler
+  headshot: icon-gensler
+  title: EVP, Head of Ad Sales
+  linkedin: david-gensler-0200272
+
 - name: Eric Raab
   headshot: icon-eric-raab
   title: EVP Engineering
@@ -67,6 +77,11 @@
   headshot: icon-john-engler
   title: VP Sales
   linkedin: johnengler
+
+- name: Kelly Hogue
+  headshot: icon-hogue
+  title: VP Sales
+  linkedin: kellyhogue
 
 - name: Thomas Jenson
   headshot: icon-thomas-jenson

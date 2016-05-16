@@ -1,3 +1,7 @@
+- name: Bid Switch
+  link: http://www.bidswitch.com/
+  image: icon-bid-switch
+
 - name: Centro
   link: https://www.centro.net/
   image: icon-centro
@@ -10,6 +14,18 @@
   link: https://www.doubleclickbygoogle.com/solutions/digital-marketing/bid-manager/
   image: icon-dbm
 
+- name: Digilant
+  link: http://www.digilant.com/
+  image: icon-digilant
+
 - name: Mediamath
   link: http://www.mediamath.com/
   image: icon-mediamath
+
+- name: Pocketmath
+  link: https://www.pocketmath.com/
+  image: icon-pocketmath
+
+- name: The Trade Desk
+  link: http://thetradedesk.com/
+  image: icon-trade-desk
